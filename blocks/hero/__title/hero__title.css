@@ -1,0 +1,10 @@
+.hero__title {
+  font-family: "Neue Machina";
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 100%;
+  font-size: 176px;
+  text-align: center;
+  margin: 30px 63px 32px 64px;
+}

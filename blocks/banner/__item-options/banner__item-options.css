@@ -1,0 +1,4 @@
+.banner__item-options {
+  display: flex;
+  flex-direction: column;
+}

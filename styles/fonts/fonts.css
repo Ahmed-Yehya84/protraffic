@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Neue Machina";
+  font-style: normal;
+  font-weight: bolder;
+  src: url(./ppneuemachina-ultrabold-webfont.woff2) format("woff2"),
+    url(./ppneuemachina-ultrabold-webfont.woff) format("woff");
+}

@@ -1,0 +1,9 @@
+.banner__item-month {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+  color: #0b5ed9;
+  line-height: 100%;
+  margin: 11.5px 0 8px 0;
+  padding: 0;
+}

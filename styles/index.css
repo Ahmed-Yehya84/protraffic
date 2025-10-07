@@ -44,3 +44,6 @@
 @import url(../blocks/banner/__item-text/banner__item-text.css);
 @import url(../blocks/banner/__item-image-wrapper/banner__item-image-wrapper.css);
 @import url(../blocks/banner/__item-rotation/--none/banner__item-rotation-none.css);
+
+/* button */
+@import url(../blocks/button/button.css);

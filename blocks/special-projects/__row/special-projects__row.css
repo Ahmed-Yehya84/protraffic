@@ -1,0 +1,8 @@
+.special-projects__row {
+  display: grid;
+  gap: 20px;
+}
+
+.special-projects__row:not(.special-projects__row--large) {
+  grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+}

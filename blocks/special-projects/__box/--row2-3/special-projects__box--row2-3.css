@@ -1,0 +1,8 @@
+.special-projects__box--row2-3 {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "icon content";
+  background-color: #f4f4f4;
+  padding: 10px 10px;
+  gap: 16px;
+}

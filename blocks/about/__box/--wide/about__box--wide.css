@@ -1,3 +1,4 @@
 .about__box--wide {
   grid-column: 3 / 4;
+  width: 100%;
 }

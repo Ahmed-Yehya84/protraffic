@@ -62,8 +62,9 @@
 @import url(../blocks/special-projects/__image-container/special-projects__image-container.css);
 @import url(../blocks/special-projects/__image/special-projects__image.css);
 @import url(../blocks/special-projects/__box/--row2-3/special-projects__box--row2-3.css);
-@import url(../blocks/special-projects/__icon-container/special-projects__icon-container.css);
+
 @import url(../blocks/special-projects/__icon/special-projects__icon.css);
 @import url(../blocks/special-projects/__content/special-projects__content.css);
 @import url(../blocks/special-projects/__title/special-projects__title.css);
 @import url(../blocks/special-projects/__description/special-projects__description.css);
+@import url(../blocks/special-projects/__box-container/special-projects__box-container.css);

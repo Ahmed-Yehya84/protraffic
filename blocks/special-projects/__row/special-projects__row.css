@@ -1,6 +1,6 @@
 .special-projects__row {
   display: grid;
-  gap: 20px;
+  width: 1200px;
 }
 
 .special-projects__row:not(.special-projects__row--large) {

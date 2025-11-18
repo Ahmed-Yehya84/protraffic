@@ -7,9 +7,10 @@
 } */
 
 .project-block__image-container {
-  padding: 0;
+  padding-right: 0;
+  margin-right: 10px;
   /* margin: 10px; */
-  width: 585px; /* your exact Figma width */
+  width: 585px;
   height: 432px; /* your exact Figma height */
   border-radius: 20px;
   overflow: hidden; /* This is the key line */

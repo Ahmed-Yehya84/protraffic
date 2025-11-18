@@ -1,0 +1,9 @@
+.pricing-option__price {
+  font-size: 38px;
+  font-weight: bolder;
+  line-height: 100%;
+  text-align: left;
+  color: #2c2c2c;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+}

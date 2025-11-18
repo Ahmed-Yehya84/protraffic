@@ -1,0 +1,4 @@
+.project-block__pricing-grid {
+  display: flex;
+  flex-direction: row;
+}

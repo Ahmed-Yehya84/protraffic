@@ -96,9 +96,17 @@
 @import url(../blocks/project-block/__icon/project-block__icon.css);
 @import url(../blocks/project-block/__content/project-block__content.css);
 @import url(../blocks/project-block/__description/--price/project-block__description--price.css);
+@import url(../blocks/project-block/__pricing-grid/project-block__pricing-grid.css);
 /* content-creation block  */
 
 @import url(../blocks/content-creation/content-creation.css);
 
 /* content-publication block */
 @import url(../blocks/content-publication/content-publication.css);
+
+/* pricing-option */
+
+@import url(../blocks/pricing-option/pricing-option.css);
+@import url(../blocks/pricing-option/__price/pricing-option__price.css);
+@import url(../blocks/pricing-option/__description/pricing-option__description.css);
+@import url(../blocks/pricing-option/--highlighted/pricing-option--highlighted.css);

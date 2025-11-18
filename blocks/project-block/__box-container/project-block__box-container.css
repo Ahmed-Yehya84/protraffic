@@ -1,0 +1,5 @@
+.project-block__box-container {
+  display: flex;
+  flex-direction: column;
+  width: 292px;
+}

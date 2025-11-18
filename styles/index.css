@@ -53,7 +53,7 @@
 @import url(../blocks/button/button.css);
 
 /* special-projects section*/
-
+/* 
 @import url(../blocks/special-projects/special-projects.css);
 @import url(../blocks/special-projects/__row/special-projects__row.css);
 @import url(../blocks/special-projects/__row/--large/special-projects__row--large.css);
@@ -71,4 +71,34 @@
 @import url(../blocks/special-projects/__content/special-projects__content.css);
 @import url(../blocks/special-projects/__title/special-projects__title.css);
 @import url(../blocks/special-projects/__description/special-projects__description.css);
-@import url(../blocks/special-projects/__box-container/special-projects__box-container.css);
+@import url(../blocks/special-projects/__box-container/special-projects__box-container.css); */
+
+/* usebale blocks project-block */
+@import url(../blocks/special-projects/special-projects.css);
+@import url(../blocks/project-block/project-block.css);
+@import url(../blocks/project-block/__row/project-block__row.css);
+@import url(../blocks/project-block/__row/--large/project-block__row--large.css);
+@import url(../blocks/project-block/__text/project-block__text.css);
+@import url(../blocks/project-block/__box/project-block__box.css);
+@import url(../blocks/project-block/__box/--row1/project-block__box--row1.css);
+@import url(../blocks/project-block/__title/project-block__title.css);
+@import url(../blocks/project-block/__title/--main/project-block__title--main.css);
+@import url(../blocks/project-block/__description/project-block__description.css);
+@import url(../blocks/project-block/__description/--intro/project-block__description--intro.css);
+@import url(../blocks/project-block/__description/--conditions/project-block__description--conditions.css);
+@import url(../blocks/project-block/__description/--benefits/project-block__description--benefits.css);
+@import url(../blocks/project-block/__image-container/project-block__image-container.css);
+@import url(../blocks/project-block/__image/project-block__image.css);
+@import url(../blocks/project-block/__box/--row2-3/project-block__box--row2-3.css);
+
+@import url(../blocks/project-block/__box-container/project-block__box-container.css);
+
+@import url(../blocks/project-block/__icon/project-block__icon.css);
+@import url(../blocks/project-block/__content/project-block__content.css);
+@import url(../blocks/project-block/__description/--price/project-block__description--price.css);
+/* content-creation block  */
+
+@import url(../blocks/content-creation/content-creation.css);
+
+/* content-publication block */
+@import url(../blocks/content-publication/content-publication.css);

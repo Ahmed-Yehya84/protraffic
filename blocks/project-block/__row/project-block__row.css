@@ -1,0 +1,9 @@
+.project-block__row {
+  display: grid;
+  width: 1200px;
+  box-sizing: border-box;
+}
+
+.project-block__row:not(.project-block__row--large) {
+  grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+}

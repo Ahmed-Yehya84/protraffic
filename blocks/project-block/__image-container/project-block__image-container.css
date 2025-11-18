@@ -1,0 +1,17 @@
+/* .project-block__image-container {
+  padding: 0;
+  margin: 10px 10px;
+  width: 585px;
+  height: 432px;
+  border-radius: 20px;
+} */
+
+.project-block__image-container {
+  padding: 0;
+  /* margin: 10px; */
+  width: 585px; /* your exact Figma width */
+  height: 432px; /* your exact Figma height */
+  border-radius: 20px;
+  overflow: hidden; /* This is the key line */
+  flex-shrink: 0; /* prevents compression in flex layouts */
+}

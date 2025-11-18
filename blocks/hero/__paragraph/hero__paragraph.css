@@ -1,4 +1,4 @@
-.hero__paragraph {
+/* .hero__paragraph {
   font-family: "Nunito Sans", sans-serif;
   color: #f4f4f4;
   font-style: normal;
@@ -8,4 +8,39 @@
   text-align: left;
   margin: 0 52px 0px 68px;
   padding-bottom: 81px;
+} */
+
+.hero__paragraph {
+  font-family: "Nunito Sans", sans-serif;
+  color: #f4f4f4;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.15; /* Relative line height */
+  font-size: 1.5rem; /* Base font size */
+  text-align: left;
+  margin: 0 1rem 2rem; /* Relative margins */
+  padding-bottom: 2rem; /* Relative padding */
+}
+
+@media (max-width: 1024px) {
+  .hero__paragraph {
+    font-size: 1.25rem;
+    margin: 0 0.75rem 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__paragraph {
+    font-size: 1rem;
+    margin: 0 0.5rem 1rem;
+    padding-bottom: 1rem;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero__paragraph {
+    font-size: 0.875rem;
+  }
 }

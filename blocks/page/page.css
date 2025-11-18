@@ -1,8 +1,14 @@
 .page {
   background-color: #f4f4f4;
+  width: 1200px;
+  margin: auto auto;
+
+  box-sizing: border-box;
+  padding: 0;
 }
 
 section {
+  /* margin: 0 auto; */
   margin-left: auto;
   margin-right: auto;
   width: 1200px;

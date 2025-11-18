@@ -10,11 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
       rel="stylesheet"
     />
-
     <title>ProTraffic</title>
   </head>
   <body class="page">
     <header class="header">
+      <button class="header__nav-toggle" aria-label="Toggle navigation">
+        ☰
+      </button>
       <nav
         class="header__nav"
         role="navigation"
@@ -47,7 +49,6 @@
           <li class="header__nav-item">
             <a href="#contact" class="header__nav-link">Контакты</a>
           </li>
-
           <li class="header__nav-item">
             <a
               href="#english"
@@ -71,7 +72,7 @@
           <span class="hero__paragraph--bold"
             >ProTraffic — одно из самых крупных и узнаваемых медиа</span
           >
-          в affiliate сфере, а также самое крупное в медиа холдинге ADSBase
+          в affiliate сфере, а также самое крупное в медиа холдинге ADSBase
         </p>
       </section>
       <section
@@ -88,10 +89,9 @@
               class="about__logo"
             />
           </div>
-
           <h3 class="about__title">1 место</h3>
           <p class="about__paragraph">
-            в номинации «Best Media» на MAC Awards 2025
+            в номинации «Best Media» на MAC Awards 2025
           </p>
         </div>
         <div class="about__box">
@@ -117,11 +117,11 @@
               class="about__logo"
             />
           </div>
-          <h3 class="about__title">Целевая аудитория медиа и соцсетей:</h3>
+          <h3 class="about__title">Целевая аудитория медиа и соцсетей:</h3>
           <p class="about__paragraph">
             вебмастера, медиабайеры, SEO-специалисты, c-level сотрудники,
-            владельцы проектов, инфлюенсеры — все, кто связан
-            с affiliate-маркетингом и трафиком.
+            владельцы проектов, инфлюенсеры — все, кто связан с
+            affiliate-маркетингом и трафиком.
           </p>
         </div>
         <!-- second row -->
@@ -215,161 +215,196 @@
         class="special-projects"
         aria-label="Секция специальных проектов"
       >
-        <div class="special-projects__row special-projects__row--large">
-          <div class="special-projects__box special-projects__box--row1">
-            <div class="special-projects__text">
-              <h3 class="special-projects__title special-projects__title--main">
-                Спецпроекты
-              </h3>
-              <p
-                class="special-projects__description special-projects__description--intro"
-              >
-                Спецпроект — это формат, который привлекает вебмастеров,
-                владельцев команд и C-level, обеспечивая высокую читаемость и
-                вовлеченность. Наша команда занимается написанием, дизайном,
-                версткой и рекламой проекта.
-              </p>
-              <p
-                class="special-projects__description special-projects__description--conditions"
-              >
-                Условия и наполнение проекта обсуждаются индивидуально.
-              </p>
-              <p
-                class="special-projects__description special-projects__description--benefits"
-              >
-                Вы получаете:
-              </p>
+        <div class="project-block project-block--special">
+          <div class="project-block__row project-block__row--large">
+            <div class="project-block__box project-block__box--row1">
+              <div class="project-block__text">
+                <h3 class="project-block__title project-block__title--main">
+                  Спецпроекты
+                </h3>
+                <p
+                  class="project-block__description project-block__description--intro"
+                >
+                  Спецпроект — это формат, который привлекает вебмастеров,
+                  владельцев команд и C-level, обеспечивая высокую читаемость и
+                  вовлеченность. Наша команда занимается написанием, дизайном,
+                  версткой и рекламой проекта.
+                </p>
+                <p
+                  class="project-block__description project-block__description--conditions"
+                >
+                  Условия и наполнение проекта обсуждаются индивидуально.
+                </p>
+                <p
+                  class="project-block__description project-block__description--benefits"
+                >
+                  Вы получаете:
+                </p>
+              </div>
+              <div class="project-block__image-container">
+                <img
+                  src="./images/longread.png"
+                  alt="Иконка первого проекта"
+                  class="project-block__image"
+                />
+              </div>
             </div>
-            <div class="special-projects__image-container">
-              <img
-                src="./images/longread.png"
-                alt="Иконка первого проекта"
-                class="special-projects__image"
-              />
+          </div>
+          <div class="project-block__row">
+            <div class="project-block__box project-block__box--row2-3">
+              <div class="project-block__box-container">
+                <img
+                  src="./images/specia-project-icon.svg"
+                  alt="Иконка проекта 1"
+                  class="project-block__icon"
+                />
+                <div class="project-block__content">
+                  <p class="project-block__description">
+                    Разработку спецпроекта на базе ProTraffic для вашего бизнеса
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="project-block__box project-block__box--row2-3">
+              <div class="project-block__box-container">
+                <img
+                  src="./images/specia-project-icon.svg"
+                  alt="Иконка проекта 2"
+                  class="project-block__icon"
+                />
+                <div class="project-block__content">
+                  <p class="project-block__description">
+                    Повышение узнаваемости и укрепление позиций вашего бренда
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="project-block__box project-block__box--row2-3">
+              <div class="project-block__box-container">
+                <img
+                  src="./images/specia-project-icon.svg"
+                  alt="Иконка проекта 3"
+                  class="project-block__icon"
+                />
+                <div class="project-block__content">
+                  <p class="project-block__description">
+                    Продвижение с гарантией привлечения минимум 10 000 активных
+                    пользователей
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="project-block__box project-block__box--row2-3">
+              <div class="project-block__box-container">
+                <img
+                  src="./images/specia-project-icon.svg"
+                  alt="Иконка проекта 4"
+                  class="project-block__icon"
+                />
+                <div class="project-block__content">
+                  <p class="project-block__description">
+                    Привлечение новых деловых партнеров и расширение связей
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-block__row">
+            <div class="project-block__box project-block__box--row2-3">
+              <div class="project-block__box-container">
+                <img
+                  src="./images/specia-project-icon.svg"
+                  alt="Иконка проекта 5"
+                  class="project-block__icon"
+                />
+                <div class="project-block__content">
+                  <p class="project-block__description">
+                    Виральные охваты, рост цитируемости и медийного присутствия
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="project-block__box project-block__box--row2-3">
+              <div class="project-block__box-container">
+                <img
+                  src="./images/specia-project-icon.svg"
+                  alt="Иконка проекта 6"
+                  class="project-block__icon"
+                />
+                <div class="project-block__content">
+                  <p class="project-block__description">
+                    Эксклюзивный формат для выделения среди всех конкурентов
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="project-block__box project-block__box--row2-3">
+              <div class="project-block__box-container">
+                <img
+                  src="./images/specia-project-icon.svg"
+                  alt="Иконка проекта 7"
+                  class="project-block__icon"
+                />
+                <div class="project-block__content">
+                  <p class="project-block__description">
+                    Максимум переходов на ресурс — все рекламные блоки только
+                    ваши
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="project-block__box project-block__box--row2-3">
+              <div class="project-block__box-container">
+                <img
+                  src="./images/specia-project-icon.svg"
+                  alt="Иконка проекта 8"
+                  class="project-block__icon"
+                />
+                <div class="project-block__content">
+                  <p class="project-block__description">
+                    Презентацию нового позиционирования и информации о продуктах
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="special-projects__row">
-          <div class="special-projects__box special-projects__box--row2-3">
-            <div class="special-projects__box-container">
-              <img
-                src="./images/specia-project-icon.svg"
-                alt="Иконка проекта 1"
-                class="special-projects__icon"
-              />
-
-              <div class="special-projects__content">
-                <p class="special-projects__description">
-                  Разработку спецпроекта на базе ProTraffic для вашего бизнеса
+      </section>
+      <button class="button">Текст для СТА</button>
+      <!-- content creation section -->
+      <section class="content-creation" aria-label="Разработка контента">
+        <div class="project-block project-block--review">
+          <div class="project-block__row">
+            <div class="project-block__box project-block__box--row1">
+              <div class="project-block__text">
+                <h3 class="project-block__title project-block__title--main">
+                  Написание индивидуального обзора
+                </h3>
+                <p
+                  class="project-block__description project-block__description--intro"
+                >
+                  $950
+                </p>
+                <p
+                  class="project-block__description project-block__description--conditions"
+                >
+                  Обзор партнерской программы, рекламной сети или сервиса – это
+                  подробный рассказ о вашем продукте, который позволяет
+                  познакомить с ним аудиторию нашего сайта и привлечь ее
+                  внимание для дальнейшего взаимодействия с вами
+                </p>
+                <p
+                  class="project-block__description project-block__description--benefits"
+                >
+                  Приобретая обзор вы получаете:
                 </p>
               </div>
-            </div>
-          </div>
-          <div class="special-projects__box special-projects__box--row2-3">
-            <div class="special-projects__box-container">
-              <img
-                src="./images/specia-project-icon.svg"
-                alt="Иконка проекта 2"
-                class="special-projects__icon"
-              />
-
-              <div class="special-projects__content">
-                <p class="special-projects__description">
-                  Повышение узнаваемости и укрепление позиций вашего бренда
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="special-projects__box special-projects__box--row2-3">
-            <div class="special-projects__box-container">
-              <img
-                src="./images/specia-project-icon.svg"
-                alt="Иконка проекта 3"
-                class="special-projects__icon"
-              />
-
-              <div class="special-projects__content">
-                <p class="special-projects__description">
-                  Продвижение с гарантией привлечения минимум 10 000 активных
-                  пользователей
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="special-projects__box special-projects__box--row2-3">
-            <div class="special-projects__box-container">
-              <img
-                src="./images/specia-project-icon.svg"
-                alt="Иконка проекта 4"
-                class="special-projects__icon"
-              />
-
-              <div class="special-projects__content">
-                <p class="special-projects__description">
-                  Привлечение новых деловых партнеров и расширение связей
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="special-projects__row">
-          <div class="special-projects__box special-projects__box--row2-3">
-            <div class="special-projects__box-container">
-              <img
-                src="./images/specia-project-icon.svg"
-                alt="Иконка проекта 5"
-                class="special-projects__icon"
-              />
-
-              <div class="special-projects__content">
-                <p class="special-projects__description">
-                  Виральные охваты, рост цитируемости и медийного присутствия
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="special-projects__box special-projects__box--row2-3">
-            <div class="special-projects__box-container">
-              <img
-                src="./images/specia-project-icon.svg"
-                alt="Иконка проекта 6"
-                class="special-projects__icon"
-              />
-
-              <div class="special-projects__content">
-                <p class="special-projects__description">
-                  Эксклюзивный формат для выделения среди всех конкурентов
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="special-projects__box special-projects__box--row2-3">
-            <div class="special-projects__box-container">
-              <img
-                src="./images/specia-project-icon.svg"
-                alt="Иконка проекта 7"
-                class="special-projects__icon"
-              />
-
-              <div class="special-projects__content">
-                <p class="special-projects__description">
-                  Максимум переходов на ресурс — все рекламные блоки только ваши
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="special-projects__box special-projects__box--row2-3">
-            <div class="special-projects__box-container">
-              <img
-                src="./images/specia-project-icon.svg"
-                alt="Иконка проекта 8"
-                class="special-projects__icon"
-              />
-
-              <div class="special-projects__content">
-                <p class="special-projects__description">
-                  Презентацию нового позиционирования и информации о продуктах
-                </p>
+              <div class="project-block__image-container">
+                <img
+                  src="./images/longread.png"
+                  alt="Иконка первого проекта"
+                  class="project-block__image"
+                />
               </div>
             </div>
           </div>

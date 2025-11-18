@@ -1,6 +1,7 @@
 .special-projects__row {
   display: grid;
   width: 1200px;
+  box-sizing: border-box;
 }
 
 .special-projects__row:not(.special-projects__row--large) {

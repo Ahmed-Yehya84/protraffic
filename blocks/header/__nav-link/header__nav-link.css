@@ -5,3 +5,28 @@
   font-size: 16px;
   line-height: 22px;
 }
+
+.header__nav-link:hover {
+  color: #2d79ec;
+  font-weight: bolder;
+}
+
+@media (max-width: 1024px) {
+  .header__nav-link {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__nav-link {
+    font-size: 1rem;
+    padding: 0.5rem;
+    display: block; /* Full-width clickable area */
+  }
+}
+
+@media (max-width: 480px) {
+  .header__nav-link {
+    font-size: 0.875rem; /* Smaller font for tiny screens */
+  }
+}

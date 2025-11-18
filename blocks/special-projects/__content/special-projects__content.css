@@ -1,4 +1,10 @@
 .special-projects__content {
   grid-area: content;
-  font-family: "Neue Machina", "Nunito Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 0 20px 20px 20px;
+  width: 252px;
 }
+
+/* .special-projects__content:first-child {
+  padding-top: 58px;
+} */

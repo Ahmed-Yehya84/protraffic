@@ -1,6 +1,43 @@
 .header {
-  width: 1201px;
+  width: 1200px;
   background-color: #ffffff;
   margin: 20px 40px 20px 39px;
   border-radius: 20px;
+}
+
+/* .header {
+  width: 100%;
+  max-width: 1200px;
+  background-color: #ffffff;
+  margin: 1rem auto;
+  border-radius: 20px;
+  padding: 0.75rem 1rem;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 3rem;
+} 
+
+/*  */
+
+@media (max-width: 1024px) {
+  .header {
+    width: 100%;
+    max-width: 900px;
+    margin: 10px 20px 10px 20px;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    margin: 0.25rem;
+    padding: 0.75rem; /* Slightly adjusted for smaller screens */
+    margin-bottom: 1.5rem;
+  }
 }

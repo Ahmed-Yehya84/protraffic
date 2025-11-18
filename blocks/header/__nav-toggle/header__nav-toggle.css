@@ -1,0 +1,19 @@
+.header__nav-toggle {
+  display: none; /* Hidden on desktop */
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .header__nav-toggle {
+    display: block;
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 1rem;
+    transform: translateY(-50%); /* Offset by half the button's height */
+    z-index: 101;
+  }
+}

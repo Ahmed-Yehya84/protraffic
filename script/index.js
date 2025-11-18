@@ -5,7 +5,7 @@ const bannerData = [
     month: "месяц",
     rotation: "2 слота в ротации",
     text: "Самый большой и кликабельный рекламный формат, отображающийся на всех страницах сайта на десктопе и мобайле и дабщий возможность привлечь максимум целевой аудитории.",
-    image: "../images/slide1.png",
+    image: "../images/slide1.jpg",
     alt: "laptop image",
   },
   {
@@ -14,7 +14,7 @@ const bannerData = [
     month: "месяц",
     rotation: "без ротации",
     text: "Этот формат имеет высокую кликабельность за счет отсутствия ротации и хорошей видимости на любых устройствах. Размещается в верхней части экрана на десктопе и мобайле на всех страницах сайта.",
-    image: "../images/slide2.png",
+    image: "../images/slide2.jpg",
     alt: "iphone screen image",
     modifier: "banner__item-rotation--none",
   },
@@ -24,7 +24,7 @@ const bannerData = [
     month: "месяц",
     rotation: "без ротации",
     text: "Отличный формат с высокой кликабельностью и отсутствием ротации поможет повысить узнаваемость бренда рекламодателя и привлечь целевую аудиторию.Размещается в верхней части экрана на десктопе и мобайле на всех страницах сайта.",
-    image: "../images/slide3.png",
+    image: "../images/slide3.jpg",
     alt: "iphone screen image",
     modifier: "banner__item-rotation--none",
   },
@@ -34,7 +34,7 @@ const bannerData = [
     month: "месяц",
     rotation: "4 слота в ротации",
     text: "Самый большой баннер в нашей линейке, который невозможно не заметить. На десктопе: размещается на главной странице и с правой стороны от любого текстового материала. На мобайле - на главной странице и в конце каждой статьи.",
-    image: "../images/slide4.png",
+    image: "../images/slide4.jpg",
     alt: "ipad image",
   },
   {
@@ -43,7 +43,7 @@ const bannerData = [
     month: "месяц",
     rotation: "4 слота в ротации",
     text: "Баннер, который невозможно не заметить. Появляется спустя 5 секунд после открытия страницы. На Десктопе размещается в нижней левой части экранеНа Мобайле в нижней части экрана",
-    image: "../images/slide5.png",
+    image: "../images/slide5.jpg",
     alt: "macbook image",
   },
 ];
@@ -66,4 +66,13 @@ bannerData.forEach((item) => {
   img.src = item.image;
   img.alt = item.alt;
   bannerSection.appendChild(clone);
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const navToggle = document.querySelector(".header__nav-toggle");
+  const navLinks = document.querySelector(".header__nav-links");
+
+  navToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("header__nav-links--active");
+  });
 });

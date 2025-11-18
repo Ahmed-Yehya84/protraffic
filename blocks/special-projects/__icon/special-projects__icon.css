@@ -1,6 +1,4 @@
 .special-projects__icon {
-  width: 50px;
-  height: auto;
-  position: relative;
-  z-index: 3;
+  width: 42px;
+  padding: 20px 0 39px 20px;
 }

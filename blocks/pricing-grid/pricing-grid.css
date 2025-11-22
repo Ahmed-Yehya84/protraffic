@@ -1,0 +1,11 @@
+.pricing-grid {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+/* Mobile: Stack items vertically (1 column) */
+@media (max-width: 768px) {
+  .pricing-grid {
+    flex-direction: column;
+  }
+}

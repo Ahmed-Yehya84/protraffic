@@ -68,3 +68,20 @@
 /* individual-projects section */
 
 @import url(../blocks/individual-projects/individual-projects.css);
+
+@import url(../blocks/projects/__boxes-container/--individual/projects__boxes-container--individual.css);
+@import url(../blocks/projects/__box-paragraph/--individual/projects__box-paragraph--individual.css);
+
+@import url(../blocks/individual-projects/__card-wrapper/individual-projects__card-wrapper.css);
+@import url(../blocks/projects/__card-title/--secondary/projects__card-title--secondary.css);
+
+/* pricing-grid */
+@import url(../blocks/pricing-grid/pricing-grid.css);
+@import url(../blocks/pricing-grid/__item/pricing-grid__item.css);
+@import url(../blocks/projects/__card-content/--detailed-pricing/projects__card-content--detailed-pricing.css);
+@import url(../blocks/projects/__card-paragraph/--detailed-pricing/projects__card-paragraph--detailed-pricing.css);
+@import url(../blocks/pricing-grid/--three-cols/pricing-grid--three-cols.css);
+@import url(../blocks/pricing-grid/__price/pricing-grid__price.css);
+@import url(../blocks/pricing-grid/__paragraph/pricing-grid__paragraph.css);
+@import url(../blocks/pricing-grid/__price/--secondary/pricing-grid__price--secondary.css);
+@import url(../blocks/pricing-grid/__paragraph/--secondary/pricing-grid__paragraph--secondary.css);

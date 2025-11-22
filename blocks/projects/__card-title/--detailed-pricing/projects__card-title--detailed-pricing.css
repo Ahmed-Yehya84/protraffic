@@ -1,0 +1,15 @@
+.projects__card-title--detailed-pricing {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 100%;
+  color: #3663e0;
+  padding: 10px; /* margin 10px all sides -> padding 10px all sides */
+  margin-bottom: 0; /* Clear default bottom margin */
+}
+
+@media (max-width: 768px) {
+  .projects__card-title--detailed-pricing {
+    font-size: 24px;
+  }
+}

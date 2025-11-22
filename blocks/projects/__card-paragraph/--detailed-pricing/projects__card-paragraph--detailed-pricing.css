@@ -1,0 +1,14 @@
+.projects__card-paragraph--detailed-pricing {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  color: rgba(44, 44, 44, 0.8); /* Opacity applied via rgba */
+  padding: 0 10px 10px 10px; /* margin 10px left/right/bottom -> padding */
+}
+
+@media (max-width: 768px) {
+  .projects__card-paragraph--detailed-pricing {
+    font-size: 14px;
+  }
+}

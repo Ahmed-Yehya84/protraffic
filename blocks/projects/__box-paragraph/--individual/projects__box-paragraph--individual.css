@@ -1,0 +1,14 @@
+/* projects__box-paragraph.css (additions) */
+
+.projects__box-paragraph--individual {
+  font-weight: 500; /* Medium weight */
+  color: rgba(44, 44, 44, 0.8); /* Opacity applied via rgba */
+
+  /* Padding left/right/bottom of 20px */
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  /* We must override the margin-left: 20px from the base class */
+  padding: 0;
+}

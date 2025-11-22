@@ -1,0 +1,9 @@
+.projects__card-content--detailed-pricing {
+  padding: 42px 50px 42px 50px;
+}
+
+@media (max-width: 768px) {
+  .projects__card-content--detailed-pricing {
+    padding: 20px; /* Reduce padding for mobile */
+  }
+}

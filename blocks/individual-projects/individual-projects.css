@@ -1,0 +1,7 @@
+.individual-projects {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto; /* Add margin around the section */
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -2,31 +2,35 @@
   text-decoration: none;
   color: #27293e;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  font-weight: 400;
+  padding: 0.5rem 0.75rem;
+  display: inline-block;
+  transition: all 0.3s ease;
+  border-radius: 4px;
 }
 
 .header__nav-link:hover {
   color: #2d79ec;
-  font-weight: bolder;
+  font-weight: 600;
 }
 
-@media (max-width: 1024px) {
-  .header__nav-link {
-    font-size: 14px;
-  }
-}
-
+/* media queries */
 @media (max-width: 768px) {
   .header__nav-link {
-    font-size: 1rem;
-    padding: 0.5rem;
-    display: block; /* Full-width clickable area */
+    width: 100%;
+    padding: 1rem;
+    font-size: 0.95rem;
+    display: block;
+    text-align: left;
   }
 }
 
 @media (max-width: 480px) {
   .header__nav-link {
-    font-size: 0.875rem; /* Smaller font for tiny screens */
+    padding: 0.75rem;
+    font-size: 0.9rem;
+    line-height: 1.25rem;
   }
 }

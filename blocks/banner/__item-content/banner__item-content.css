@@ -1,5 +1,14 @@
 .banner__item-content {
-  background-color: #dae3ff;
-  width: 585px;
-  border-radius: 20px;
+  flex-basis: 50%;
+  box-sizing: border-box;
+  /* Margins for the entire text block: 90px top, 91px right, 90px bottom, 50px left */
+  padding: 90px 91px 90px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .banner__item-content {
+    padding: 20px; /* Much tighter padding for small screens */
+  }
 }

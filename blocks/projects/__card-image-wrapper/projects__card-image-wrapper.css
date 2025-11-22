@@ -1,0 +1,11 @@
+.projects__card-image-wrapper {
+  flex-basis: 50%;
+  box-sizing: border-box;
+  padding: 10px; /* 10px margin on all sides of the image */
+}
+
+@media (max-width: 768px) {
+  .projects__card-image-wrapper {
+    padding: 0 20px 20px 20px; /* Top: 0, Bottom/Sides: 20px */
+  }
+}

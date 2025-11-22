@@ -1,3 +1,6 @@
+/* .about__logo-background {
+  margin: 16px 234.5px 41px 16px;
+} */
 .about__logo-background {
   display: flex;
   align-items: center;
@@ -5,5 +8,7 @@
   border-radius: 4px;
   width: 42px;
   height: 32px;
-  margin: 16px 0 0 16px;
+  /* Removed margins here, they are handled by the parent padding */
+  margin-top: 16px;
+  margin-left: 16px;
 }

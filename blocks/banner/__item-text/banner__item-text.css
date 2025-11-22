@@ -1,8 +1,10 @@
 .banner__item-text {
-  margin: 14px 0 91px 50px;
-  font-size: 16px;
   font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 120%;
-  text-align: left;
-  color: #2c2c2c;
+  color: #2c2c2ccc; /* Note: 8-digit hex code provided, using standard if possible */
+  /* width and height properties are fixed values for design, but we use padding for layout */
+  padding: 10px 0; /* 10px top/bottom, 0 left/right */
+  margin-top: auto; /* Pushes the text to the bottom if content is short */
 }

@@ -1,8 +1,15 @@
 .banner__item-title {
   font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
   font-size: 38px;
-  color: #0b5ed9;
   line-height: 100%;
-  text-align: center;
-  margin: 101px 100px 24px 50px;
+  color: #0b5ed9;
+  padding: 10px; /* Padding provided */
+  margin-bottom: 34px; /* Margin between title and price section */
+}
+
+@media (max-width: 768px) {
+  .banner__item-title {
+    font-size: 24px; /* Scaled down for mobile */
+  }
 }

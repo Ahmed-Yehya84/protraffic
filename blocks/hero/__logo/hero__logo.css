@@ -1,36 +1,30 @@
 .hero__logo {
-  position: relative;
-  top: 53px;
-  left: 245px;
+  position: absolute;
+  width: 256px; /* Fixed width as specified */
+  top: 100px;
+  /* top: 8.65%;  */
+  left: 21.2%; /* (254.71px / 1200px) * 100% */
+  height: auto;
 }
 
-/* .hero__logo {
-  position: absolute;
-  top: 10%; 
-  left: 5%; 
-  max-width: 15%; 
-  height: auto;
-  z-index: 5;
-} */
+@media (max-width: 992px) {
+  /* Scale down font sizes slightly on mid-size screens */
 
-@media (max-width: 1024px) {
   .hero__logo {
-    top: 5%;
-    left: 2%;
-    max-width: 20%;
+    width: 180px;
   }
 }
 
 @media (max-width: 768px) {
   .hero__logo {
-    top: 2%;
-    left: 2%;
-    max-width: 25%;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero__logo {
-    max-width: 30%;
+    position: static;
+    transform: none; /* Remove absolute positioning transforms */
+    margin: 0 auto 1rem auto; /* Center elements in normal flow */
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    width: 150px; /* Scale down logo */
+    white-space: normal; /* Allow title to wrap if necessary */
   }
 }

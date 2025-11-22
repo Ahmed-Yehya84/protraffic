@@ -1,24 +1,37 @@
-/* .hero {
-  width: 1200px;
-  margin: 0px 40px 10px 40px;
-  background-color: #2d79ec;
-  border-radius: 20px;
-} */
-
 .hero {
+  /* The layout width is 1200px max, but the *container* takes up 100% of available space */
   width: 100%;
-  max-width: 1200px; /* Maintains max width for large screens */
-  margin: 0px 40px 10px 40px; /* Centered with relative bottom margin */
+  max-width: 1200px;
+  /* Provided Margins: 20px top, 40px right, 10px bottom, 40px left (outside the 1200px visual block) */
+  margin: 20px auto 10px auto;
+
+  /* Provided Dimensions and Color */
+  /* Height of 611px is fixed in design, but often adjusted for responsiveness */
+  min-height: 611px;
   background-color: #2d79ec;
-  border-radius: 20px;
-  /* box-sizing: border-box; */
-  /* padding: 1rem; */
-  position: relative; /* Context for absolute positioning */
-  overflow: hidden; /* Prevents overflow issues */
+  border-radius: 20px; /* Assuming a slight border radius from typical designs */
+
+  position: relative; /* Context for absolute positioning of elements */
+  overflow: hidden; /* Keeps things neat */
+  box-sizing: border-box; /* Inherited from global reset, but good practice */
+}
+
+@media (max-width: 1200px) {
+  .hero {
+    /* When the viewport is less than 1200px, we use responsive margins, 
+           inheriting padding from the .page class usually means setting 
+           margin-left/right to auto and ensuring width: 100% */
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (max-width: 768px) {
   .hero {
-    padding: 0.5rem;
+    min-height: auto; /* Allow height to adjust automatically */
+    padding: 2rem 1rem; /* Increase padding for mobile viewports */
+    position: static; /* Switch to normal document flow */
+    text-align: center;
+    margin: 1rem auto; /* Simpler margins for mobile */
   }
 }

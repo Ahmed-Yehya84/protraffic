@@ -1,6 +1,0 @@
-@media (max-width: 768px) {
-  .header__nav-links--active {
-    display: flex;
-    margin-bottom: 1rem;
-  }
-}

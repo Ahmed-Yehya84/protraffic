@@ -1,3 +1,51 @@
+// const menuToggle = document.querySelector(".header__menu-toggle");
+// const nav = document.querySelector(".header__nav");
+
+// if (menuToggle) {
+//   menuToggle.addEventListener("click", () => {
+//     const isExpanded = menuToggle.getAttribute("aria-expanded") === "true";
+//     menuToggle.setAttribute("aria-expanded", !isExpanded);
+//     nav.classList.toggle("header__nav--active");
+//   });
+
+//   // Close menu when a link is clicked
+//   document.querySelectorAll(".header__nav-link").forEach((link) => {
+//     link.addEventListener("click", () => {
+//       menuToggle.setAttribute("aria-expanded", "false");
+//       nav.classList.remove("header__nav--active");
+//     });
+//   });
+// }
+
+const menuToggle = document.querySelector(".header__menu-toggle");
+const nav = document.querySelector(".header__nav");
+
+if (menuToggle) {
+  menuToggle.addEventListener("click", () => {
+    const isExpanded = menuToggle.getAttribute("aria-expanded") === "true";
+
+    // Toggle ARIA attribute
+    menuToggle.setAttribute("aria-expanded", !isExpanded);
+
+    // Toggle the class on the nav (for showing/hiding the menu content)
+    nav.classList.toggle("header__nav--active");
+
+    // NEW: Toggle the class on the button itself (for the "X" animation)
+    menuToggle.classList.toggle("header__menu-toggle--active");
+  });
+
+  // Close menu when a link is clicked
+  document.querySelectorAll(".header__nav-link").forEach((link) => {
+    link.addEventListener("click", () => {
+      menuToggle.setAttribute("aria-expanded", "false");
+      nav.classList.remove("header__nav--active");
+      // NEW: Remove the active class from the button when a link is clicked
+      menuToggle.classList.remove("header__menu-toggle--active");
+    });
+  });
+}
+
+// logic for banner section
 const bannerData = [
   {
     title: "Брендирование сайта",
@@ -48,31 +96,50 @@ const bannerData = [
   },
 ];
 
+// ... (bannerData array remains the same) ...
+
 const bannerSection = document.querySelector(".banner");
 const template = document.getElementById("banner__item-template");
 
-bannerData.forEach((item) => {
+// Function to format the price (e.g., "$5500" becomes "$5 500")
+const formatPrice = (priceString) => {
+  // Basic formatting assuming the format is always $XXXX or $X XXX
+  // This looks for the first digit and adds a space after it if followed by 3 more digits
+  return priceString.replace(/(\$\d)(\d{3})/, "$1 $2");
+};
+
+const createBannerItem = (itemData) => {
   const clone = template.content.cloneNode(true);
-  const card = clone.querySelector(".banner__item-rotation");
-  if (item.modifier) {
-    card.classList.add(item.modifier);
+  const itemElement = clone.querySelector(".banner__item");
+
+  itemElement.querySelector(".banner__item-title").textContent = itemData.title;
+
+  // FIX: Format the price before assigning the text content
+  itemElement.querySelector(".banner__item-price").textContent = formatPrice(
+    itemData.price
+  );
+
+  itemElement.querySelector(".banner__item-month").textContent = itemData.month;
+  itemElement.querySelector(".banner__item-rotation").textContent =
+    itemData.rotation;
+  itemElement.querySelector(".banner__item-text").textContent = itemData.text;
+
+  const img = itemElement.querySelector(".banner__item-image");
+  img.src = itemData.image;
+  img.alt = itemData.alt;
+
+  if (itemData.modifier) {
+    itemElement
+      .querySelector(".banner__item-rotation")
+      .classList.add(itemData.modifier);
   }
-  clone.querySelector(".banner__item-title").textContent = item.title;
-  clone.querySelector(".banner__item-price").textContent = item.price;
-  clone.querySelector(".banner__item-month").textContent = item.month;
-  clone.querySelector(".banner__item-rotation").textContent = item.rotation;
-  clone.querySelector(".banner__item-text").textContent = item.text;
-  const img = clone.querySelector(".banner__item-image");
-  img.src = item.image;
-  img.alt = item.alt;
-  bannerSection.appendChild(clone);
-});
 
-document.addEventListener("DOMContentLoaded", () => {
-  const navToggle = document.querySelector(".header__nav-toggle");
-  const navLinks = document.querySelector(".header__nav-links");
+  return clone;
+};
 
-  navToggle.addEventListener("click", () => {
-    navLinks.classList.toggle("header__nav-links--active");
-  });
+// Use a Document Fragment for performance when appending many items
+const fragment = document.createDocumentFragment();
+bannerData.forEach((item) => {
+  fragment.appendChild(createBannerItem(item));
 });
+bannerSection.appendChild(fragment);

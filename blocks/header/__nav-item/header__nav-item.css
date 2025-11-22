@@ -1,17 +1,16 @@
-/* .header__nav-item:last-child {
-  font-weight: bold;
-} */
-
 .header__nav-item {
-  flex: 0 0 auto;
+  flex: 0 1 auto;
+  white-space: nowrap;
 }
 
-.header__nav-item:last-child {
-  font-weight: bold;
-}
-
+/* media queries */
 @media (max-width: 768px) {
   .header__nav-item {
-    margin: 0.5rem 0;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .header__nav-item:last-child {
+    border-bottom: none;
   }
 }

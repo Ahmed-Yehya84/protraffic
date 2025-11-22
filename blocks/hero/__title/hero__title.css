@@ -1,41 +1,35 @@
-/* .hero__title {
-  font-family: "Neue Machina";
-  color: #ffffff;
-  font-style: normal;
-  font-weight: bolder;
-  line-height: 100%;
-  font-size: 176px;
-  text-align: center;
-  margin: 30px 63px 32px 64px;
-} */
-
 .hero__title {
-  font-family: "Neue Machina";
+  /* You will need to make sure this font is imported in your HTML head */
+  font-family: "PP Neue Machina", sans-serif;
   color: #ffffff;
-  font-style: normal;
-  font-weight: bolder;
-  line-height: 100%;
-  font-size: 10vw; /* Scales with viewport width */
-  text-align: center;
-  margin: 1.5rem 1rem; /* Relative margins */
+  font-weight: 800; /* 'bolder' mapped to a specific weight if known */
+  font-size: 178px; /* Massive size! */
+
+  /* Positioning the H1 relative to its natural flow */
+  position: absolute;
+  top: 50%; /* Center vertically within the container */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centering trick */
+  white-space: nowrap; /* Prevents wrapping of "МЕДИАКИТ" if space is tight */
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
+  /* Scale down font sizes slightly on mid-size screens */
   .hero__title {
-    font-size: 8vw;
-    margin: 1rem;
+    font-size: 14vw;
   }
 }
 
 @media (max-width: 768px) {
   .hero__title {
-    font-size: 6vw;
-    margin: 0.75rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero__title {
-    font-size: 5vw;
+    position: static;
+    transform: none; /* Remove absolute positioning transforms */
+    margin: 0 auto 1rem auto; /* Center elements in normal flow */
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    font-size: 10vw;
+    white-space: normal; /* Allow title to wrap if necessary */
   }
 }

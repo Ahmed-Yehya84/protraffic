@@ -1,0 +1,13 @@
+.projects {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto 10px auto; /* 40px top margin from button, 10px bottom margin */
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+  .projects {
+    padding: 0 16px;
+  }
+}

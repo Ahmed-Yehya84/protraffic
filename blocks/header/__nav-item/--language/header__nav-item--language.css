@@ -1,0 +1,13 @@
+.header__nav-item--language {
+  margin-left: auto;
+}
+
+/* media quereis */
+
+@media (max-width: 768px) {
+  .header__nav-item--language {
+    margin-left: 0;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 1rem;
+  }
+}

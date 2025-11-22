@@ -1,0 +1,12 @@
+.header__nav-link--language {
+  font-weight: 700;
+}
+
+/* media queries */
+
+@media (max-width: 480px) {
+  .header__nav-link--language {
+    font-weight: 700;
+    font-size: 0.95rem;
+  }
+}

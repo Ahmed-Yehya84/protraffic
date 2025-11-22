@@ -1,46 +1,40 @@
-/* .hero__paragraph {
-  font-family: "Nunito Sans", sans-serif;
-  color: #f4f4f4;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 46px;
-  font-size: 40px;
-  text-align: left;
-  margin: 0 52px 0px 68px;
-  padding-bottom: 81px;
-} */
-
 .hero__paragraph {
   font-family: "Nunito Sans", sans-serif;
   color: #f4f4f4;
-  font-style: normal;
+  font-size: 40px; /* Large font size */
   font-weight: 400;
-  line-height: 1.15; /* Relative line height */
-  font-size: 1.5rem; /* Base font size */
-  text-align: left;
-  margin: 0 1rem 2rem; /* Relative margins */
-  padding-bottom: 2rem; /* Relative padding */
+  line-height: 1.2;
+
+  /* Provided Margins: 32px top, 52px right, 81px bottom, 68px left (relative to the HERO block) */
+  margin: 32px 52px 81px 68px;
+
+  /* Position this absolutely at the bottom for consistent placement */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* Adjust margin for mobile views as this is designed for a large screen */
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
+  /* Scale down font sizes slightly on mid-size screens */
+
   .hero__paragraph {
-    font-size: 1.25rem;
-    margin: 0 0.75rem 1.5rem;
-    padding-bottom: 1.5rem;
+    font-size: 30px;
   }
 }
 
 @media (max-width: 768px) {
   .hero__paragraph {
-    font-size: 1rem;
-    margin: 0 0.5rem 1rem;
-    padding-bottom: 1rem;
-    line-height: 1.1;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero__paragraph {
-    font-size: 0.875rem;
+    position: static;
+    transform: none; /* Remove absolute positioning transforms */
+    margin: 0 auto 1rem auto; /* Center elements in normal flow */
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    font-size: 18px; /* Scale down paragraph font significantly */
+    margin: 1rem auto;
+    white-space: normal; /* Allow title to wrap if necessary */
   }
 }

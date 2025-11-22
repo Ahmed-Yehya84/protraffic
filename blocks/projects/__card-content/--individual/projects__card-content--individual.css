@@ -1,0 +1,10 @@
+.projects__card-content--individual {
+  /* Margins: 26px top, 30px right, 26px bottom, 50px left */
+  padding: 26px 30px 26px 50px;
+}
+
+@media (max-width: 768px) {
+  .projects__card-content--individual {
+    padding: 20px; /* Tighter padding for small screens */
+  }
+}

@@ -1,0 +1,18 @@
+.pricing-grid--publication {
+  margin-right: 79px;
+}
+
+.pricing-grid--publication .pricing-grid__item:first-child {
+  margin-right: 26px;
+}
+
+.pricing-grid--publication .pricing-grid__item:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  /* ... other media queries ... */
+  .pricing-grid--publication {
+    margin-right: 0;
+  }
+}

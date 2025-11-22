@@ -1,0 +1,10 @@
+.projects__card-content--publication {
+  padding: 35px 50px 35px 50px;
+}
+
+@media (max-width: 768px) {
+  /* ... other media queries ... */
+  .projects__card-content--publication {
+    padding: 20px;
+  }
+}

@@ -85,3 +85,10 @@
 @import url(../blocks/pricing-grid/__paragraph/pricing-grid__paragraph.css);
 @import url(../blocks/pricing-grid/__price/--secondary/pricing-grid__price--secondary.css);
 @import url(../blocks/pricing-grid/__paragraph/--secondary/pricing-grid__paragraph--secondary.css);
+
+/* publication */
+@import url(../blocks/projects/__card-content/--publication/projects__card-content--publication.css);
+@import url(../blocks/projects/__card-title/--publication/projects__card-title--publication.css);
+@import url(../blocks/projects/__card-paragraph/--publication/projects__card-paragraph--publication.css);
+@import url(../blocks/pricing-grid/__paragraph/--publication/pricing-grid__paragraph--publication.css);
+@import url(../blocks/pricing-grid/__price/--publication/pricing-grid__price--publication.css);

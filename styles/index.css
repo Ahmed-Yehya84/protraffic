@@ -92,3 +92,14 @@
 @import url(../blocks/projects/__card-paragraph/--publication/projects__card-paragraph--publication.css);
 @import url(../blocks/pricing-grid/__paragraph/--publication/pricing-grid__paragraph--publication.css);
 @import url(../blocks/pricing-grid/__price/--publication/pricing-grid__price--publication.css);
+
+/* corportate-blog section */
+@import url(../blocks/corporate-blog/corporate-blog.css);
+@import url(../blocks/corporate-blog/__text/corporate-blog__text.css);
+@import url(../blocks/corporate-blog/__title/corporate-blog__title.css);
+@import url(../blocks/corporate-blog/__paragraph/corporate-blog__paragraph.css);
+@import url(../blocks/corporate-blog/__tables/corporate-blog__tables.css);
+@import url(../blocks/corporate-blog/__caption/corporate-blog__caption.css);
+@import url(../blocks/projects/__boxes-container/--blog/projects__boxes-container--blog.css);
+@import url(../blocks/corporate-blog/__text-and-tables-wrapper/corporate-blog__text-and-tables-wrapper.css);
+@import url(../blocks/corporate-blog/__table-image/corporate-blog__table-image.css);

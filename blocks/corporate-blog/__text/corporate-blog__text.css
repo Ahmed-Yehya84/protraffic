@@ -1,0 +1,15 @@
+.corporate-blog__text {
+  /* margin: 42px 0 20px 50px */
+  margin: 42px 0 20px 50px;
+  box-sizing: border-box;
+  /* FIX: Set the explicit width for desktop view */
+  width: 504px;
+}
+
+/* Ensure it becomes fluid on mobile/tablet screens */
+@media (max-width: 768px) {
+  .corporate-blog__text {
+    margin: 20px 0 10px 10px; /* Reduce margins for mobile */
+    width: auto; /* Allow width to be 100% of container on mobile */
+  }
+}

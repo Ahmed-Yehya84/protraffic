@@ -105,3 +105,14 @@
 @import url(../blocks/corporate-blog/__table-image/corporate-blog__table-image.css);
 @import url(../blocks/projects/__box-icon/--blog/projects__box-icon--blog.css);
 @import url(../blocks/projects/__boxes-container/--blog/projects__boxes-container--blog.css);
+
+/* top-ratings section */
+@import url(../blocks/top-ratings/top-ratings.css);
+@import url(../blocks/projects/__card/--ratings/projects__card--ratings.css);
+@import url(../blocks/projects/__card-content/--ratings/projects__card-content--ratings.css);
+@import url(../blocks/top-ratings/__title/top-ratings__title.css);
+@import url(../blocks/top-ratings/__badge-paragraph/top-ratings__badge-paragraph.css);
+@import url(../blocks/top-ratings/__badge/top-ratings__badge.css);
+@import url(../blocks/projects/__card-paragraph/--ratings/projects__card-paragraph--ratings.css);
+@import url(../blocks/projects/__card-image-wrapper/--ratings/projects__card-image-wrapper--ratings.css);
+@import url(../blocks/top-ratings/__table-image/top-ratings__table-image.css);

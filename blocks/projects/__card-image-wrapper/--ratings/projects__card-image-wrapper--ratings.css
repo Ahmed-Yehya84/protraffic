@@ -1,0 +1,8 @@
+/* projects__card-image-wrapper.css (additions) */
+
+.projects__card-image-wrapper--ratings {
+  margin-top: 50px;
+  margin-right: 50px;
+  /* Remove base padding set previously in this file if necessary */
+  padding: 0;
+}

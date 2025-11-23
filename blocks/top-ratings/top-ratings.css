@@ -1,0 +1,16 @@
+/* top-ratings.css */
+
+.top-ratings {
+  width: 100%;
+  max-width: 1200px; /* Centers the whole section within the body width */
+  margin: 40px auto;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* FIX: Add the white background to the entire section */
+  background-color: #ffffff;
+  /* Add padding to prevent content from touching the edges of the white area */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 16px;
+}

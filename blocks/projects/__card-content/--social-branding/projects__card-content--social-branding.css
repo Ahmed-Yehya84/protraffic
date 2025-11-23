@@ -1,0 +1,11 @@
+.projects__card-content--social-branding {
+  /* margin: 50px top, 50px right, 51px bottom, 50px left -> padding */
+  padding: 50px 50px 51px 50px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .projects__card-content--social-branding {
+    padding: 20px;
+  }
+}

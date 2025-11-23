@@ -185,3 +185,15 @@
 @import url(../blocks/social-media-posts/__table-image/social-media-posts__table-image.css);
 @import url(../blocks/social-media-posts/__note-paragraph/social-media-posts__note-paragraph.css);
 @import url(../blocks/projects/__card-image-wrapper/--social/projects__card-image-wrapper--social.css);
+
+/* social-media-branding section */
+@import url(../blocks/social-media-branding/social-media-branding.css);
+@import url(../blocks/projects/__card-content/--social-branding/projects__card-content--social-branding.css);
+@import url(../blocks/social-media-branding/__title/social-media-branding__title.css);
+@import url(../blocks/social-media-branding/__package/social-media-branding__package.css);
+@import url(../blocks/social-media-branding/__package-title/social-media-branding__package-title.css);
+@import url(../blocks/social-media-branding/__price-row/social-media-branding__price-row.css);
+@import url(../blocks/social-media-branding/__price/social-media-branding__price.css);
+@import url(../blocks/social-media-branding/__frequency/social-media-branding__frequency.css);
+@import url(../blocks/social-media-branding/__description/social-media-branding__description.css);
+@import url(../blocks/projects/__card-image-wrapper/--social-branding/projects__card-image-wrapper--social-branding.css);

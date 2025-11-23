@@ -1,0 +1,11 @@
+/* social-media-branding__title.css */
+
+.social-media-branding__title {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 100%;
+  color: #0b5ed9;
+  padding: 10px; /* Padding on all sides */
+  margin-bottom: 10px;
+}

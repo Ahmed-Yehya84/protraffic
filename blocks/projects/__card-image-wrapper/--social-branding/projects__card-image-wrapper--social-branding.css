@@ -1,0 +1,10 @@
+.projects__card-image-wrapper--social-branding {
+  margin: 50px; /* margin: 50px on all sides */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .projects__card-image-wrapper--social-branding {
+    margin: 20px;
+  }
+}

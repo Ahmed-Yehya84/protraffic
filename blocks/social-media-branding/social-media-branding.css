@@ -1,0 +1,16 @@
+.social-media-branding {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
+/* Responsiveness */
+@media (max-width: 1200px) {
+  .social-media-branding {
+    padding: 0 16px;
+  }
+}

@@ -156,3 +156,10 @@
 @import url(../blocks/projects/__card-paragraph/--native/-bold/projects__card-paragraph--native-bold.css);
 @import url(../blocks/projects/__card-paragraph/--native/-2/projects__card-paragraph--native-2.css);
 @import url(../blocks/projects/__card-image-wrapper/--native/projects__card-image-wrapper--native.css);
+@import url(../blocks/search-branding/search-branding.css);
+@import url(../blocks/projects/__card-content/--branding/projects__card-content--branding.css);
+@import url(../blocks/search-branding/__title/search-branding__title.css);
+@import url(../blocks/search-branding/__price/search-branding__price.css);
+@import url(../blocks/search-branding/__month/search-branding__month.css);
+@import url(../blocks/projects/__card-paragraph/--branding/projects__card-paragraph--branding.css);
+@import url(../blocks/projects/__card-image-wrapper/--branding/projects__card-image-wrapper--branding.css);

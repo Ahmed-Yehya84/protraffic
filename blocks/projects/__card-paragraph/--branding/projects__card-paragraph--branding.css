@@ -1,0 +1,10 @@
+.projects__card-paragraph--branding {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  color: rgba(44, 44, 44, 0.8);
+  /* padding left 10px and padding right 16px */
+  padding: 0 16px 0 10px;
+  /* No margin bottom specified, inheriting default if any */
+}

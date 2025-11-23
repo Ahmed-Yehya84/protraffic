@@ -1,9 +1,9 @@
-/* native-integration.css */
+/* search-branding.css */
 
-.native-integration {
+.search-branding {
   width: 100%;
   max-width: 1200px;
-  margin: 40px auto 0 auto; /* Assuming 40px margin top/bottom */
+  margin: 10px auto; /* Assuming 40px top/bottom margin */
   padding: 0;
   box-sizing: border-box;
 
@@ -13,7 +13,7 @@
 
 /* Responsiveness */
 @media (max-width: 1200px) {
-  .native-integration {
+  .search-branding {
     padding: 0 16px;
   }
 }

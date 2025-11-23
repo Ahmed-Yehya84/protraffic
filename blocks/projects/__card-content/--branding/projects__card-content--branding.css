@@ -1,0 +1,10 @@
+.projects__card-content--branding {
+  /* margin: 50px on all sides -> padding 50px */
+  padding: 50px;
+}
+
+@media (max-width: 768px) {
+  .projects__card-content--branding {
+    padding: 20px;
+  }
+}

@@ -116,3 +116,17 @@
 @import url(../blocks/projects/__card-paragraph/--ratings/projects__card-paragraph--ratings.css);
 @import url(../blocks/projects/__card-image-wrapper/--ratings/projects__card-image-wrapper--ratings.css);
 @import url(../blocks/top-ratings/__table-image/top-ratings__table-image.css);
+@import url(../blocks/ad-networks-ratings/ad-networks-ratings.css);
+@import url(../blocks/ad-networks-ratings/ad-networks-ratings__wrapper/ad-network-ratings__wrapper.css);
+@import url(../blocks/ad-networks-ratings/__column/ad-networks-ratings__column.css);
+@import url(../blocks/ad-networks-ratings/__text-container/ad-networks-ratings__text-container.css);
+@import url(../blocks/ad-networks-ratings/__title/ad-networks-ratings__title.css);
+@import url(../blocks/ad-networks-ratings/__table-image/ad-networks-ratings__table-image.css);
+@import url(../blocks/ad-networks-ratings/__main-image/ad-networks-ratings__main-image.css);
+
+/* exclusive-top-ratings section */
+@import url(../blocks/exclusive-top-ratings/exclusive-top-ratings.css);
+@import url(../blocks/projects/__card-content/--exclusive/projects__card-content--exclusive.css);
+@import url(../blocks/projects/__card-paragraph/--exclusive/projects__card-paragraph--exclusive.css);
+@import url(../blocks/projects/__card-image-wrapper/--exclusive/projects__card-image-wrapper--exclusive.css);
+@import url(../blocks/exclusive-top-ratings/__table-image/exclusive-top-ratings__table-image.css);

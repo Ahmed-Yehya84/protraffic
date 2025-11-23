@@ -1,0 +1,26 @@
+.ad-networks-ratings {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto 10px auto; /* 40px top margin, 10px bottom margin, centered */
+  padding: 0;
+  box-sizing: border-box;
+
+  /* FIX: Add the white background to the entire section */
+  background-color: #ffffff;
+  /* FIX: Add the required border radius */
+  border-radius: 16px;
+}
+
+@media (max-width: 1200px) {
+  .ad-networks-ratings {
+    padding: 0 16px; /* Add padding to screen edges */
+  }
+}
+
+@media (max-width: 768px) {
+  .ad-networks-ratings {
+    padding: 0 10px; /* Use a small padding on very narrow screens */
+    margin-top: 10px; /* Tighter spacing on mobile */
+    margin-bottom: 10px;
+  }
+}

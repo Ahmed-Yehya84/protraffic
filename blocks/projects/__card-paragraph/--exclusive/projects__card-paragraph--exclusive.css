@@ -1,0 +1,8 @@
+/* projects__card-paragraph.css (additions) */
+
+.projects__card-paragraph--exclusive {
+  /* padding up and bottom is 10px, opacity 80% */
+  padding: 10px 0;
+  font-weight: 500;
+  color: rgba(44, 44, 44, 0.8);
+}

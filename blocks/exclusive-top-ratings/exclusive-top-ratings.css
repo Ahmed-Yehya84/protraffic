@@ -1,0 +1,21 @@
+/* exclusive-top-ratings.css */
+
+.exclusive-top-ratings {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: #ffffff;
+  border-radius: 16px;
+
+  /* FIX: Add the bottom padding here to force the background to extend */
+  padding-bottom: 50px;
+}
+/* Responsiveness */
+@media (max-width: 1200px) {
+  .exclusive-top-ratings {
+    padding: 0 16px;
+  }
+}

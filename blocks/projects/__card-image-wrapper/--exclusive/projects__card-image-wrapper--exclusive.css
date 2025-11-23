@@ -1,0 +1,13 @@
+/* projects__card-image-wrapper.css (additions) */
+
+.projects__card-image-wrapper--exclusive {
+  /* margin: 50px top, 50px right, 20px bottom, 0 left */
+  margin: 50px 50px 20px 0;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .projects__card-image-wrapper--exclusive {
+    margin: 0 20px 20px 20px; /* Uniform margins for mobile */
+  }
+}

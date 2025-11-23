@@ -1,4 +1,5 @@
 .top-ratings__badge {
+  /* ... rest of the styles ... */
   background-color: #e01339;
   color: #ffffff;
   border-radius: 50%;
@@ -7,7 +8,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* FIX: Added margin-right based on margin-right 3px spec (3px of space to text) */
   margin-right: 3px;
-  /* The padding 9px of the parent handles overall spacing */
 }

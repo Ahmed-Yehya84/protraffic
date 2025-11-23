@@ -1,0 +1,38 @@
+.contacts__card-row--second {
+  grid-template-columns: 360px 403px;
+
+  /* FIX: Add a slight margin left to shift the entire row left */
+  margin-left: 60px;
+  margin-top: 0;
+  margin-right: 64px;
+  /* FIX: Change margin-bottom to 0px (as the parent handles the space) */
+  margin-bottom: 0px;
+  /* padding-left: 10px; (Keep your manual padding fix if needed) */
+}
+
+@media (max-width: 1076px) {
+  /* When screen is narrower than 1076px, revert to fluid columns for responsiveness */
+
+  .contacts__card-row--second {
+    grid-template-columns: 1fr 1fr 1fr; /* Fluid 3-col layout */
+    gap: 10px;
+    padding: 0 10px;
+    margin: 20px auto 10px auto; /* Responsive margins */
+  }
+
+  .contacts__card-row--second {
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: center;
+    gap: 10px; */
+    /* margin-left: 0; */
+  }
+}
+
+@media (max-width: 768px) {
+  .contacts__card-row--second {
+    grid-template-columns: 1fr; /* Stack vertically */
+    padding: 0 20px;
+    margin-bottom: 10px; /* Tighter spacing */
+    margin-top: 10px;
+  }
+}

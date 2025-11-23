@@ -1,0 +1,13 @@
+/* projects__card-content.css (additions) */
+
+.projects__card-content--vacancy {
+  /* margin: 50.5px top, 50px right, 50.5px bottom, 50px left -> padding */
+  padding: 50.5px 50px 50.5px 50px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .projects__card-content--vacancy {
+    padding: 20px;
+  }
+}

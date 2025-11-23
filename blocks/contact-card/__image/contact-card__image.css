@@ -1,0 +1,5 @@
+.contact-card__image {
+  width: 100%; /* Image fills the grid cell width */
+  height: auto;
+  display: block;
+}

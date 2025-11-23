@@ -1,0 +1,8 @@
+.vacancy__frequency {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 100%;
+  color: #0b5ed9;
+  /* Reuses container spacing from sponsor__price-container.css */
+}

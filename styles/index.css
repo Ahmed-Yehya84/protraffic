@@ -197,3 +197,23 @@
 @import url(../blocks/social-media-branding/__frequency/social-media-branding__frequency.css);
 @import url(../blocks/social-media-branding/__description/social-media-branding__description.css);
 @import url(../blocks/projects/__card-image-wrapper/--social-branding/projects__card-image-wrapper--social-branding.css);
+
+/* vacancy section */
+@import url(../blocks/vacancy/vacancy.css);
+@import url(../blocks/projects/__card-content/--vacancy/projects__card-content--vacancy.css);
+@import url(../blocks/vacancy/__title/vacancy__title.css);
+@import url(../blocks/vacancy/__price/vacancy__price.css);
+@import url(../blocks/vacancy/__frequency/vacancy__frequency.css);
+@import url(../blocks/vacancy/__list/vacancy__list.css);
+@import url(../blocks/vacancy/__list-item/vacancy__list-item.css);
+@import url(../blocks/projects/__card-image-wrapper/--vacancy/projects__card-image-wrapper--vacancy.css);
+
+/* contacts section */
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/contacts/__card-container/contacts__card-container.css);
+@import url(../blocks/contacts-card/contacts-card.css);
+@import url(../blocks/contacts-card/__image/contacts-card__image.css);
+@import url(../blocks/contacts/__card-row/contacts__card-row.css);
+@import url(../blocks/contacts/__card-row/--first/contacts__card-row--first.css);
+@import url(../blocks/contacts/__card-row/--second/contacts__card-row--second.css);

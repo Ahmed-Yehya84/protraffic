@@ -1,0 +1,37 @@
+/* projects__box-paragraph.css (additions) */
+
+.projects__box-paragraph--blog {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  color: rgba(44, 44, 44, 0.8);
+
+  /* Apply specific margins: margin 82px 20px 20px 20px (Box 1 and 4 values) */
+  /* We handle these with specific nth-child selectors for accuracy */
+  margin: 0; /* Reset */
+}
+
+/* Box 1 & Box 4: margin 82px 20px 20px 20px */
+.projects__boxes-container--blog
+  .projects__box:nth-child(1)
+  .projects__box-paragraph--blog,
+.projects__boxes-container--blog
+  .projects__box:nth-child(4)
+  .projects__box-paragraph--blog {
+  margin: 82px 20px 20px 20px;
+}
+
+/* Box 2: margin 101px 20px 20px 20px */
+.projects__boxes-container--blog
+  .projects__box:nth-child(2)
+  .projects__box-paragraph--blog {
+  margin: 101px 20px 20px 20px;
+}
+
+/* Box 3: margin 63px 20px 20px 20px */
+.projects__boxes-container--blog
+  .projects__box:nth-child(3)
+  .projects__box-paragraph--blog {
+  margin: 63px 20px 20px 20px;
+}

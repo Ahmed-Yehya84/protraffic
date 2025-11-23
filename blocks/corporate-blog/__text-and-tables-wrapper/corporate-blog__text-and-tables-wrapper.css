@@ -1,7 +1,9 @@
 .corporate-blog__text-and-tables-wrapper {
   background-color: #ffffff;
   border-radius: 16px;
-  /* We handle all spacing using margins on inner elements now */
-  padding: 0;
+
+  padding-top: 42px;
   padding-bottom: 42px;
+  padding-left: 0;
+  padding-right: 0;
 }

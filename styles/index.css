@@ -177,3 +177,11 @@
 @import url(../blocks/price-list/__frequency/price-list__frequency.css);
 @import url(../blocks/projects/__card-paragraph/--placement/projects__card-paragraph--placement.css);
 @import url(../blocks/projects/__card-image-wrapper/--placement/projects__card-image-wrapper--placement.css);
+
+/* social-media-posts section */
+@import url(../blocks/social-media-posts/social-media-posts.css);
+@import url(../blocks/projects/__card-content/--social/projects__card-content--social.css);
+@import url(../blocks/social-media-posts/__title/social-media-posts__title.css);
+@import url(../blocks/social-media-posts/__table-image/social-media-posts__table-image.css);
+@import url(../blocks/social-media-posts/__note-paragraph/social-media-posts__note-paragraph.css);
+@import url(../blocks/projects/__card-image-wrapper/--social/projects__card-image-wrapper--social.css);

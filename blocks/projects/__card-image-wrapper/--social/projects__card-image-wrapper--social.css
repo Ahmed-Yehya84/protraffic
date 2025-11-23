@@ -1,0 +1,13 @@
+/* projects__card-image-wrapper.css (additions) */
+
+.projects__card-image-wrapper--social {
+  /* margin: 50px on all sides */
+  margin: 50px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .projects__card-image-wrapper--social {
+    margin: 20px;
+  }
+}

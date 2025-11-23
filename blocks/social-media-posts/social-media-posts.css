@@ -1,0 +1,19 @@
+/* social-media-posts.css */
+
+.social-media-posts {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; /* 40px top/bottom margin */
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: #ffffff; /* White background */
+  border-radius: 16px; /* Rounded corners */
+}
+
+/* Responsiveness */
+@media (max-width: 1200px) {
+  .social-media-posts {
+    padding: 0 16px;
+  }
+}

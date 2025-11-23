@@ -1,0 +1,16 @@
+.footer__wrapper {
+  max-width: 1200px;
+  margin: 0 auto; /* Centers the footer content */
+  display: flex;
+  justify-content: space-between;
+  /* Column margins applied as padding on wrapper */
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .footer__wrapper {
+    flex-direction: column; /* Stack columns vertically on mobile */
+    padding: 20px;
+  }
+}

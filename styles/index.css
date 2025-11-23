@@ -217,3 +217,15 @@
 @import url(../blocks/contacts/__card-row/contacts__card-row.css);
 @import url(../blocks/contacts/__card-row/--first/contacts__card-row--first.css);
 @import url(../blocks/contacts/__card-row/--second/contacts__card-row--second.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__wrapper/footer__wrapper.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__paragraph/footer__paragraph.css);
+@import url(../blocks/footer/__socials/footer__socials.css);
+@import url(../blocks/footer/__social-link/footer__social-link.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__link/--last-in-col/footer__link--last-in-col.css);

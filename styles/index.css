@@ -163,3 +163,17 @@
 @import url(../blocks/search-branding/__month/search-branding__month.css);
 @import url(../blocks/projects/__card-paragraph/--branding/projects__card-paragraph--branding.css);
 @import url(../blocks/projects/__card-image-wrapper/--branding/projects__card-image-wrapper--branding.css);
+
+/* top-article-placement section */
+
+@import url(../blocks/top-article-placement/top-article-placement.css);
+@import url(../blocks/projects/__card-content/--placement/projects__card-content--placement.css);
+@import url(../blocks/top-article-placement/__title/top-article-placement__title.css);
+@import url(../blocks/price-list/price-list.css);
+@import url(../blocks/price-list/__item/price-list__item.css);
+@import url(../blocks/price-list/__position/price-list__position.css);
+@import url(../blocks/price-list/__price-row/price-list__price-row.css);
+@import url(../blocks/price-list/__price/price-list__price.css);
+@import url(../blocks/price-list/__frequency/price-list__frequency.css);
+@import url(../blocks/projects/__card-paragraph/--placement/projects__card-paragraph--placement.css);
+@import url(../blocks/projects/__card-image-wrapper/--placement/projects__card-image-wrapper--placement.css);

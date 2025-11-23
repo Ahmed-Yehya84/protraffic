@@ -1,0 +1,19 @@
+/* top-article-placement.css */
+
+.top-article-placement {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
+/* Responsiveness */
+@media (max-width: 1200px) {
+  .top-article-placement {
+    padding: 0 16px;
+  }
+}

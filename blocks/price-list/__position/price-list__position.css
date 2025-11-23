@@ -1,0 +1,8 @@
+.price-list__position {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #2c2c2c;
+  margin-bottom: 5px; /* Space between position text and price row */
+}

@@ -1,0 +1,6 @@
+.native-integration__price-container {
+  display: flex;
+  align-items: center;
+  padding: 10px; /* Padding on all sides */
+  margin-bottom: 0; /* No margin bottom */
+}

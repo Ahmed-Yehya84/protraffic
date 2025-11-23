@@ -1,0 +1,17 @@
+.sponsor {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto 20px auto; /* 40px top margin, 20px bottom margin, centered */
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: #ffffff; /* Assuming white background */
+  border-radius: 16px; /* Assuming rounded corners */
+}
+
+/* Responsiveness */
+@media (max-width: 1200px) {
+  .sponsor {
+    padding: 0 16px;
+  }
+}

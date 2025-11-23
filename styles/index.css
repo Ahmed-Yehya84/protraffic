@@ -130,3 +130,29 @@
 @import url(../blocks/projects/__card-paragraph/--exclusive/projects__card-paragraph--exclusive.css);
 @import url(../blocks/projects/__card-image-wrapper/--exclusive/projects__card-image-wrapper--exclusive.css);
 @import url(../blocks/exclusive-top-ratings/__table-image/exclusive-top-ratings__table-image.css);
+
+/* sponsor section */
+
+@import url(../blocks/sponsor/sponsor.css);
+@import url(../blocks/projects/__card/--sponsor/projects__card--sponsor.css);
+@import url(../blocks/projects/__card-content/--sponsor/projects__card-content--sponsor.css);
+@import url(../blocks/sponsor/__title/sponsor__title.css);
+@import url(../blocks/sponsor/__price-container/sponsor__price-container.css);
+@import url(../blocks/sponsor/__price/sponsor__price.css);
+@import url(../blocks/sponsor/__month/sponsor__month.css);
+@import url(../blocks/projects/__card-paragraph/--sponsor/projects__card-paragraph--sponsor.css);
+@import url(../blocks/projects/__card-image-wrapper/--sponsor/projects__card-image-wrapper--sponsor.css);
+
+/* native-integration section */
+@import url(../blocks/native-integration/native-integration.css);
+@import url(../blocks/projects/__card/--native/projects__card--native.css);
+@import url(../blocks/projects/__card-content/--native/projects__card-content--native.css);
+@import url(../blocks/native-integration/__title/native-integration__title.css);
+@import url(../blocks/native-integration/__price-container/native-integration__price-container.css);
+@import url(../blocks/native-integration/__from/native-integration__from.css);
+@import url(../blocks/native-integration/__price/native-integration__price.css);
+@import url(../blocks/projects/__card-paragraph/--native/projects__card-paragraph--native.css);
+@import url(../blocks/projects/__card-paragraph/--native/-regular/projects__card-paragraph--native-regular.css);
+@import url(../blocks/projects/__card-paragraph/--native/-bold/projects__card-paragraph--native-bold.css);
+@import url(../blocks/projects/__card-paragraph/--native/-2/projects__card-paragraph--native-2.css);
+@import url(../blocks/projects/__card-image-wrapper/--native/projects__card-image-wrapper--native.css);

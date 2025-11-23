@@ -1,0 +1,8 @@
+.native-integration__from {
+  font-family: "PP Neue Machina", sans-serif;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 100%;
+  color: #2c2c2c;
+  margin-right: 5px; /* Space between "от" and price */
+}

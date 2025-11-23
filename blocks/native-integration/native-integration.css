@@ -1,0 +1,19 @@
+/* native-integration.css */
+
+.native-integration {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto; /* Assuming 40px margin top/bottom */
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: #ffffff; /* Assuming white background */
+  border-radius: 16px; /* Assuming rounded corners */
+}
+
+/* Responsiveness */
+@media (max-width: 1200px) {
+  .native-integration {
+    padding: 0 16px;
+  }
+}

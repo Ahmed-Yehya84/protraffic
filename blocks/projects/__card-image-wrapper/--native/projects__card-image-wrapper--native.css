@@ -1,0 +1,11 @@
+.projects__card-image-wrapper--native {
+  /* margin: 50px on all sides */
+  margin: 50px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .projects__card-image-wrapper--native {
+    margin: 20px;
+  }
+}

@@ -1,0 +1,11 @@
+/* native-integration__title.css */
+
+.native-integration__title {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 100%;
+  color: #3663e0;
+  padding: 10px; /* Padding on all sides */
+  margin-bottom: 10px; /* Space to price container */
+}

@@ -1,0 +1,11 @@
+.projects__card-content--sponsor {
+  /* margin: 87px top, 50px right, 87px bottom, 50px left */
+  padding: 87px 50px 87px 50px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .projects__card-content--sponsor {
+    padding: 20px;
+  }
+}

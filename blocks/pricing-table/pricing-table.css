@@ -1,0 +1,17 @@
+.pricing-table {
+  /* width of 505px, border radius of 16px */
+  width: 505px;
+  border-radius: 16px;
+  overflow: hidden; /* Ensures border radius applies to content */
+  border-collapse: collapse; /* Removes space between borders */
+
+  /* Margin for the table, matching the previous image's margin */
+  margin: 0 50px 20px 50px;
+}
+
+@media (max-width: 768px) {
+  .pricing-table {
+    width: calc(100% - 40px); /* Adjust width to fit mobile padding */
+    margin: 0 20px 20px 20px; /* Adjust margins for mobile layout */
+  }
+}

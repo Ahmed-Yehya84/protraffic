@@ -229,3 +229,13 @@
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__link/--last-in-col/footer__link--last-in-col.css);
+
+/* pricing-table */
+@import url(../blocks/pricing-table/pricing-table.css);
+@import url(../blocks/pricing-table/__row/--odd/pricing-table__row--odd.css);
+@import url(../blocks/pricing-table/__row/--even/pricing-table__row--even.css);
+@import url(../blocks/pricing-table/__link/pricing-table__link.css);
+@import url(../blocks/pricing-table/__currency/pricing-table__currency.css);
+@import url(../blocks/pricing-table/__cell/pricing-table__cell.css);
+@import url(../blocks/pricing-table/__cell/--price/pricing-table__cell--price.css);
+@import url(../blocks/pricing-table/__cell/--description/pricing-table__cell--description.css);

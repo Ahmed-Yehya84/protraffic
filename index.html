@@ -1011,34 +1011,86 @@
         aria-label="Секция постов в социальных сетях"
       >
         <div class="projects__card projects__card--social" role="article">
+          <!-- Title is inside the content wrapper (standard layout) -->
           <div class="projects__card-content projects__card-content--social">
-            <!-- 1. Заголовок -->
             <h2 class="social-media-posts__title">Посты в социальных сетях</h2>
 
-            <!-- 2. Изображение таблицы -->
-            <img
-              src="images/table6.png"
-              alt="Таблица цен постов в соцсетях"
-              class="social-media-posts__table-image"
-            />
+            <!-- REPLACE IMG WITH THIS TABLE STRUCTURE -->
+            <table class="pricing-table">
+              <tbody>
+                <!-- Row 1 -->
+                <tr class="pricing-table__row pricing-table__row--odd">
+                  <td class="pricing-table__cell pricing-table__cell--price">
+                    <span class="pricing-table__currency">$</span>550
+                  </td>
+                  <td
+                    class="pricing-table__cell pricing-table__cell--description"
+                  >
+                    Пост в
+                    <a href="#" class="pricing-table__link">Telegram канале</a>
+                    без закрепа
+                  </td>
+                </tr>
+                <!-- Row 2 -->
+                <tr class="pricing-table__row pricing-table__row--even">
+                  <td class="pricing-table__cell pricing-table__cell--price">
+                    <span class="pricing-table__currency">$</span>650
+                  </td>
+                  <td
+                    class="pricing-table__cell pricing-table__cell--description"
+                  >
+                    Пост в
+                    <a href="#" class="pricing-table__link">Telegram канале</a>
+                    с закрепом на 3 дня
+                  </td>
+                </tr>
+                <!-- Row 3 -->
+                <tr class="pricing-table__row pricing-table__row--odd">
+                  <td class="pricing-table__cell pricing-table__cell--price">
+                    <span class="pricing-table__currency">$</span>250
+                  </td>
+                  <td
+                    class="pricing-table__cell pricing-table__cell--description"
+                  >
+                    Пост в
+                    <a href="#" class="pricing-table__link">Telegram чате</a>
+                    без закрепа
+                  </td>
+                </tr>
+                <!-- Row 4 -->
+                <tr class="pricing-table__row pricing-table__row--even">
+                  <td class="pricing-table__cell pricing-table__cell--price">
+                    <span class="pricing-table__currency">$</span>250
+                  </td>
+                  <td
+                    class="pricing-table__cell pricing-table__cell--description"
+                  >
+                    Сторис в
+                    <a href="#" class="pricing-table__link">Instagram</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-            <!-- 3. Параграф с примечанием -->
             <p class="social-media-posts__note-paragraph">
               Рекламные посты удаляются на 4-ый день после размещения. Пик
               просмотров обычно достигается на 2-3 день.
             </p>
           </div>
+
+          <!-- Right side image wrapper -->
           <div
             class="projects__card-image-wrapper projects__card-image-wrapper--social"
           >
             <img
               class="projects__card-image"
-              src="images/social-post.png"
+              src="./images/social-post.png"
               alt="Изображение постов в соцсетях"
             />
           </div>
         </div>
       </section>
+
       <section
         class="social-media-branding"
         aria-label="Секция брендирования социальных сетей"

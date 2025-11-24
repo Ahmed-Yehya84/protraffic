@@ -1,0 +1,8 @@
+.pricing-table__cell--price {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800; /* ExtraBold */
+  font-size: 40px;
+  line-height: 100%;
+  color: #2c2c2c;
+  white-space: nowrap; /* Prevents price from wrapping */
+}

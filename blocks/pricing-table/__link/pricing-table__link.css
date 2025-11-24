@@ -1,0 +1,8 @@
+.pricing-table__link {
+  color: #3663e0; /* Highlight color */
+  text-decoration: none;
+}
+
+.pricing-table__link:hover {
+  text-decoration: underline; /* Add underline on hover for usability */
+}

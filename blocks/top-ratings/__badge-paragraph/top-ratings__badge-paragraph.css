@@ -6,7 +6,10 @@
   padding: 3px 9px;
   color: #e01339;
   margin-bottom: 10px;
-
+  border: 1px solid #ffdbe2;
+  background-color: #ffdbe2;
+  border-radius: 16px;
+  width: 227px;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 600;
   font-size: 10px;

@@ -1,4 +1,5 @@
 .banner__item-rotation--none {
   /* Add specific color/background changes here if needed for this modifier */
-  background-color: #e0e0e0; /* Example adjustment */
+  background-color: #ffdbe2; /* Example adjustment */
+  color: #e01339;
 }

@@ -1,0 +1,10 @@
+.services-rating__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .services-rating__wrapper {
+    flex-direction: column; /* FIX: Stack columns vertically on mobile */
+  }
+}

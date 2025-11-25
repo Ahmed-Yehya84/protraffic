@@ -1,10 +1,10 @@
 .banner__item {
   background-color: #ffffff;
-  border-radius: 16px; /* Card border radius */
-  margin-bottom: 20px; /* Margin between individual cards */
-  display: flex; /* Use flexbox for 50/50 split of content and image */
-  overflow: hidden; /* Ensures border radius is respected by children */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Optional subtle shadow */
+  border-radius: 16px;
+  margin-bottom: 20px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 @media (max-width: 768px) {

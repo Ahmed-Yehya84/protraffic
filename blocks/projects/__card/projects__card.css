@@ -1,9 +1,9 @@
 .projects__card {
   background-color: #ffffff;
   border-radius: 16px;
-  display: flex; /* 50/50 split */
+  display: flex;
   overflow: hidden;
-  margin-bottom: 10px; /* Margin between the main card and the 8 boxes below */
+  margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {

@@ -1,15 +1,10 @@
-/* projects__box-paragraph.css (additions) */
-
 .projects__box-paragraph--blog {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 120%;
   color: rgba(44, 44, 44, 0.8);
-
-  /* Apply specific margins: margin 82px 20px 20px 20px (Box 1 and 4 values) */
-  /* We handle these with specific nth-child selectors for accuracy */
-  margin: 0; /* Reset */
+  margin: 0;
 }
 
 /* Box 1 & Box 4: margin 82px 20px 20px 20px */

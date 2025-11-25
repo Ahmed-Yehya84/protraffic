@@ -1,34 +1,27 @@
-/* contacts__card-container.css */
-
 .contacts__card-container {
   width: 100%;
-  max-width: 1076px; /* Specific max width provided */
-  margin: 0 auto; /* Centers the container within the section */
+  max-width: 1076px;
+  margin: 0 auto;
 
   display: grid;
-  /* Create 3 equal columns */
+
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px; /* Space between cards (adjust as needed) */
+  gap: 20px;
 }
 
-/* This targets the 4th and 5th items to start on the first column of the second row */
-.contact-card:nth-child(4),
+/* .contact-card:nth-child(4),
 .contact-card:nth-child(5) {
-  /* We handle this in the next CSS file for better BEM structure */
-}
+} */
 
 @media (max-width: 768px) {
   .contacts__card-container {
-    /* Stack vertically on mobile */
     grid-template-columns: 1fr;
     padding: 0 20px;
   }
 }
 
 @media (min-width: 769px) {
-  /* Apply only on desktop where 3 columns exist */
-  /* This overrides the 3-column layout slightly */
   .contacts__card-container {
-    justify-items: center; /* Center items within their grid cell */
+    justify-items: center;
   }
 }

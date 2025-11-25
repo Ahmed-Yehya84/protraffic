@@ -1,7 +1,6 @@
 @media (max-width: 768px) {
   .social-media-posts__title--mobile-order {
-    order: 1; /* Title comes first on mobile (Flexbox order) */
-    /* Adjust margins for mobile view */
+    order: 1;
     margin-bottom: 10px;
     margin-left: 20px;
   }

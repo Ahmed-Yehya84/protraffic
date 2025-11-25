@@ -1,12 +1,10 @@
 .projects__card-content--ratings {
-  width: 501px; /* Fixed width as specified */
-  /* Padding/margins are handled by inner elements */
+  width: 501px;
 }
 
-/* Ensure responsiveness for this specific width */
 @media (max-width: 768px) {
   .projects__card-content--ratings {
-    width: auto; /* Make it fluid on mobile */
+    width: auto;
     padding: 20px;
   }
 }

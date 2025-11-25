@@ -1,6 +1,5 @@
 .corporate-blog__table-image {
   display: block;
-  /* width 1100px is max, will shrink with viewport. margin: 0 50px 18.95px 50px */
   width: 100%;
   max-width: 1100px;
   height: auto;

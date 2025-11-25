@@ -1,27 +1,5 @@
-/* contact-card.css */
-
 .contact-card {
-  /* Styles for padding/background go here once specs are provided */
-  background-color: #f8f8f8; /* Example placeholder background */
+  background-color: #f8f8f8;
   border-radius: 8px;
   overflow: hidden;
-  /* The width is determined by the parent grid layout */
-}
-.contact-card:nth-child(4),
-.contact-card:nth-child(5) {
-  /* We handle this in the next CSS file for better BEM structure */
-}
-
-@media (min-width: 769px) {
-  /* Apply only on desktop where 3 columns exist */
-  /* This overrides the 3-column layout slightly */
-
-  .contact-card:nth-child(4),
-  .contact-card:nth-child(5) {
-    /* This isn't perfect for centering just 2 in a 3 col layout.
-           The best way is to wrap row 2 in a separate container, or use JS to sort.
-           We stick to standard CSS: centering 2 items in a 3-col grid is complex without a wrapper.
-           Let's use a wrapper for simplicity based on previous implementation patterns.
-        */
-  }
 }

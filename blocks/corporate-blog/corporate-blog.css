@@ -1,15 +1,12 @@
 .corporate-blog {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto; /* Bottom margin is fine */
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-
-  /* This guarantees 10px *above* this section */
   margin-top: 10px;
 }
 
-/* Add padding to the edges on smaller screens */
 @media (max-width: 1200px) {
   .corporate-blog {
     padding: 0 16px;

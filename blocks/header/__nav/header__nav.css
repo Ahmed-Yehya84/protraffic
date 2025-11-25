@@ -5,25 +5,10 @@
 }
 
 /* media queries */
-/* @media (max-width: 768px) {
-  .header__nav {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: #ffffff;
-    flex-direction: column;
-    border-radius: 0 0 20px 20px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-  }
-} */
+
 @media (max-width: 768px) {
   .header__nav {
-    /* Example hiding logic (adjust for your layout): */
     display: none;
-    /* Other mobile navigation styles (position: fixed, etc.) */
   }
 }
 

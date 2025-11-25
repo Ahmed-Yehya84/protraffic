@@ -1,8 +1,8 @@
 .pricing-grid--three-cols .pricing-grid__item {
-  flex: 1; /* Distributes 3 columns evenly */
-  margin-right: 20px; /* Margin right for columns 1 and 2 */
+  flex: 1;
+  margin-right: 20px;
 }
 
 .pricing-grid--three-cols .pricing-grid__item:last-child {
-  margin-right: 9px; /* Margin right for the last column (9px) */
+  margin-right: 9px;
 }

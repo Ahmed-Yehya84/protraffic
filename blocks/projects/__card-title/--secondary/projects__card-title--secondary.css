@@ -4,7 +4,7 @@
   font-size: 26px;
   line-height: 100%;
   color: #3663e0;
-  padding: 10px 10px 0 10px; /* padding-top/right/left 10px, bottom 0 */
+  padding: 10px 10px 0 10px;
 }
 
 @media (max-width: 768px) {

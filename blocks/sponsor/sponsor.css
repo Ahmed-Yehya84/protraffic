@@ -1,12 +1,11 @@
 .sponsor {
   width: 100%;
   max-width: 1200px;
-  margin: 0px auto 20px auto; /* 40px top margin, 20px bottom margin, centered */
+  margin: 0px auto 20px auto;
   padding: 0;
   box-sizing: border-box;
-
-  background-color: #ffffff; /* Assuming white background */
-  border-radius: 16px; /* Assuming rounded corners */
+  background-color: #ffffff;
+  border-radius: 16px;
 }
 
 /* Responsiveness */

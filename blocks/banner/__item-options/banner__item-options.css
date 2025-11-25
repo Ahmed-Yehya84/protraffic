@@ -1,5 +1,5 @@
 .banner__item-options {
   display: flex;
   flex-direction: column;
-  margin-left: 20px; /* Space between price and options */
+  margin-left: 20px;
 }

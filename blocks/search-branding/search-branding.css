@@ -1,14 +1,11 @@
-/* search-branding.css */
-
 .search-branding {
   width: 100%;
   max-width: 1200px;
-  margin: 10px auto; /* Assuming 40px top/bottom margin */
+  margin: 10px auto;
   padding: 0;
   box-sizing: border-box;
-
-  background-color: #ffffff; /* Assuming white background */
-  border-radius: 16px; /* Assuming rounded corners */
+  background-color: #ffffff;
+  border-radius: 16px;
 }
 
 /* Responsiveness */

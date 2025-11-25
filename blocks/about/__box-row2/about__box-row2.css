@@ -3,11 +3,11 @@
   width: 100%;
   margin-top: 0;
   gap: 10px;
-  grid-column: span 3; /* Span across all 3 columns */
+  grid-column: span 3;
 }
 
 .about__box-row2 {
-  flex: 1; /* Makes all 4 boxes equal width within the second row */
+  flex: 1;
 }
 
 .about__box-row2 .about__box:nth-child(1) {
@@ -15,18 +15,17 @@
 }
 
 .about__box-row2 .about__box:nth-child(1) .about__title:nth-of-type(1) {
-  margin: 61px 0 16px 0; /* Gap logo bottom to first title top */
+  margin: 61px 0 16px 0;
 }
 .about__box-row2 .about__box:nth-child(1) .about__paragraph:nth-of-type(1) {
-  margin: 5px 0 0 0; /* Gap first title bottom to first paragraph top */
+  margin: 5px 0 0 0;
 }
 
 .about__box-row2 .about__box:nth-child(1) .about__title:nth-of-type(2) {
-  margin: 5px 0 0 0; /* Gap from first paragraph */
+  margin: 5px 0 0 0;
 }
 .about__box-row2 .about__box:nth-child(1) .about__paragraph:nth-of-type(2) {
-  margin: 5px 0 0 0; /* Gap second title bottom to second paragraph top */
-  /* Space between bottom of second paragraph and border of box is handled by bottom padding (16px) */
+  margin: 5px 0 0 0;
 }
 
 .about__box-row2 .about__box:nth-child(n + 2) {
@@ -34,12 +33,11 @@
 }
 
 .about__box-row2 .about__box:nth-child(n + 2) .about__title {
-  margin: 81px 0 0 0; /* Gap logo bottom to title top */
+  margin: 81px 0 0 0;
 }
 
 .about__box-row2 .about__box:nth-child(n + 2) .about__paragraph {
-  margin: 5px 0 0 0; /* Gap title bottom to paragraph top */
-  /* Space between bottom of paragraph and border of box is handled by bottom padding (16px) */
+  margin: 5px 0 0 0;
 }
 
 .about__box-row2 .about__box:nth-child(1) .about__logo-background {
@@ -61,16 +59,14 @@
 
 @media (max-width: 768px) {
   .about__box-row2 {
-    /* FIX: Stack the 4 boxes within this row vertically */
     flex-direction: column;
-    margin-top: 10px; /* Ensure spacing between the previous box and this group */
+    margin-top: 10px;
   }
 }
 
 @media (max-width: 524px) {
   .about__box-row2 {
-    /* FIX: Stack the 4 boxes within this row vertically */
     flex-direction: column;
-    margin-top: 10px; /* Ensure spacing between the previous box and this group */
+    margin-top: 10px;
   }
 }

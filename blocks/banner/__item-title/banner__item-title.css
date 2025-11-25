@@ -4,12 +4,12 @@
   font-size: 38px;
   line-height: 100%;
   color: #0b5ed9;
-  padding: 10px; /* Padding provided */
-  margin-bottom: 34px; /* Margin between title and price section */
+  padding: 10px;
+  margin-bottom: 34px;
 }
 
 @media (max-width: 768px) {
   .banner__item-title {
-    font-size: 24px; /* Scaled down for mobile */
+    font-size: 24px;
   }
 }

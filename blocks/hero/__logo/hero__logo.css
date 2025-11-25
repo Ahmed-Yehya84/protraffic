@@ -1,15 +1,12 @@
 .hero__logo {
   position: absolute;
-  width: 256px; /* Fixed width as specified */
+  width: 256px;
   top: 100px;
-  /* top: 8.65%;  */
-  left: 21.2%; /* (254.71px / 1200px) * 100% */
+  left: 21.2%;
   height: auto;
 }
 
 @media (max-width: 992px) {
-  /* Scale down font sizes slightly on mid-size screens */
-
   .hero__logo {
     width: 180px;
   }
@@ -18,13 +15,13 @@
 @media (max-width: 768px) {
   .hero__logo {
     position: static;
-    transform: none; /* Remove absolute positioning transforms */
-    margin: 0 auto 1rem auto; /* Center elements in normal flow */
+    transform: none;
+    margin: 0 auto 1rem auto;
     left: auto;
     right: auto;
     top: auto;
     bottom: auto;
-    width: 150px; /* Scale down logo */
-    white-space: normal; /* Allow title to wrap if necessary */
+    width: 150px;
+    white-space: normal;
   }
 }

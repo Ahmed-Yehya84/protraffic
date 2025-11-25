@@ -4,11 +4,7 @@
   font-size: 16px;
   line-height: 120%;
   color: rgba(44, 44, 44, 0.8);
-
-  /* padding-left 10px and padding-bottom 10px */
   padding-left: 10px;
   padding-bottom: 10px;
-
-  /* Adjust standard list item indentation */
   margin-left: 20px;
 }

@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
   .pricing-grid__item {
-    margin-right: 0 !important; /* Remove desktop horizontal margins */
-    margin-bottom: 10px; /* Add vertical spacing instead */
+    margin-right: 0 !important;
+    margin-bottom: 10px;
   }
 }

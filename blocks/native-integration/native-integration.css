@@ -1,14 +1,11 @@
-/* native-integration.css */
-
 .native-integration {
   width: 100%;
   max-width: 1200px;
-  margin: 40px auto 0 auto; /* Assuming 40px margin top/bottom */
+  margin: 40px auto 0 auto;
   padding: 0;
   box-sizing: border-box;
-
-  background-color: #ffffff; /* Assuming white background */
-  border-radius: 16px; /* Assuming rounded corners */
+  background-color: #ffffff;
+  border-radius: 16px;
 }
 
 /* Responsiveness */

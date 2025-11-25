@@ -1,13 +1,12 @@
 .banner {
   width: 100%;
-  max-width: 1200px; /* Aligns with previous sections */
-  margin: 40px auto 40px auto; /* 40px top margin from about section, centers the container */
-
+  max-width: 1200px;
+  margin: 40px auto 40px auto;
   box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
   .banner {
-    padding: 0 1rem; /* Use a relative unit for padding on small screens */
+    padding: 0 1rem;
   }
 }

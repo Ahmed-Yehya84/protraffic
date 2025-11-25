@@ -5,6 +5,6 @@
 
 @media (max-width: 768px) {
   .ad-networks-ratings__wrapper {
-    flex-direction: column; /* FIX: Stack columns vertically on mobile */
+    flex-direction: column;
   }
 }

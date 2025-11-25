@@ -1,5 +1,4 @@
 .contacts__card-row--first {
-  /* total width: 330 + 346 + 360 + (2*20px gaps) = 1076px */
   grid-template-columns: 330px 346px 360px;
   margin-bottom: 20px;
   margin-top: 117px;
@@ -8,20 +7,19 @@
 }
 
 @media (max-width: 1076px) {
-  /* When screen is narrower than 1076px, revert to fluid columns for responsiveness */
   .contacts__card-row--first {
-    grid-template-columns: 1fr 1fr 1fr; /* Fluid 3-col layout */
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     padding: 0 10px;
-    margin: 20px auto 10px auto; /* Responsive margins */
+    margin: 20px auto 10px auto;
   }
 }
 
 @media (max-width: 768px) {
   .contacts__card-row--first {
-    grid-template-columns: 1fr; /* Stack vertically */
+    grid-template-columns: 1fr;
     padding: 0 20px;
-    margin-bottom: 10px; /* Tighter spacing */
+    margin-bottom: 10px;
     margin-top: 10px;
   }
 }

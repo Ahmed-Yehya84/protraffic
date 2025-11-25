@@ -1,5 +1,4 @@
 .footer__paragraph {
-  /* FIX: Add the specific width */
   width: 264px;
   margin-bottom: 12px;
   font-family: "Nunito Sans", sans-serif;
@@ -11,6 +10,6 @@
 
 @media (max-width: 768px) {
   .footer__paragraph {
-    width: auto; /* Allow width to be fluid on mobile devices */
+    width: auto;
   }
 }

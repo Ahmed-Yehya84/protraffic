@@ -1,49 +1,31 @@
-/* .about {
-  width: 100%;
-  max-width: 1200px;
-  margin: 40px auto;
-  padding: 0 40px; 
-  box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px; 
-} */
-
-/* Ensure the about section container aligns perfectly with the centered hero/header */
 .about {
   width: 100%;
   max-width: 1200px;
-  /* Updated margin: 10px top margin between hero and about section */
   margin: 10px auto 40px auto;
   padding: 0;
   box-sizing: border-box;
-
-  display: grid; /* Using Grid for robust layout */
+  display: grid;
   grid-template-columns: 292px 292px 595px;
-  gap: 10px; /* Grid gaps work perfectly here */
+  gap: 10px;
 }
 
 @media (max-width: 1282px) {
   .about {
-    /* FIX: Switch to a fluid layout using fractions */
-    /* Columns will now proportionally use the available width, keeping their relative size */
-    grid-template-columns: 1fr 1fr 2fr; /* Approx Ratio: 292/292/595 */
-    padding: 0 16px; /* Add padding to prevent boxes from hitting screen edges */
+    grid-template-columns: 1fr 1fr 2fr;
+    padding: 0 16px;
   }
 }
 
 @media (max-width: 768px) {
   .about {
-    /* FIX: Change to a single column grid that takes up full width */
-    grid-template-columns: 1fr; /* 1fr means one fraction of available space (full width) */
-    padding: 0 16px; /* Add some padding from the screen edges */
+    grid-template-columns: 1fr;
+    padding: 0 16px;
   }
 }
 
 @media (max-width: 524px) {
   .about {
-    /* FIX: Change to a single column grid that takes up full width */
-    grid-template-columns: 1fr; /* 1fr means one fraction of available space (full width) */
+    grid-template-columns: 1fr;
     padding: 0 16px;
   }
 }

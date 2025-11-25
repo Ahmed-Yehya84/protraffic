@@ -1,5 +1,5 @@
 .banner__item-subscription {
   display: flex;
   align-items: center;
-  margin-bottom: 10px; /* Space between subscription div and main text p */
+  margin-bottom: 10px;
 }

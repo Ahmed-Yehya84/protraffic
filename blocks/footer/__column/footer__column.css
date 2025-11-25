@@ -1,11 +1,10 @@
 .footer__column {
   flex-basis: 1fr;
   box-sizing: border-box;
-  /* The desktop margin right/left should be managed by the gap or flex logic */
 }
 
 @media (max-width: 768px) {
   .footer__column {
-    margin-bottom: 20px; /* Space between columns on mobile */
+    margin-bottom: 20px;
   }
 }

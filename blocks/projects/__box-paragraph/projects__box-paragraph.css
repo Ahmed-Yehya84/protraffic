@@ -4,9 +4,7 @@
   font-size: 16px;
   line-height: 120%;
   color: #2c2c2c;
-
-  /* Apply margins as specified */
-  margin-top: 0; /* Assuming it follows immediately after the icon's margin bottom */
+  margin-top: 0;
   margin-right: 20px;
   margin-bottom: 20px;
   margin-left: 20px;

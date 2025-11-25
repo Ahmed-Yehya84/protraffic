@@ -1,7 +1,7 @@
 .pricing-table__cell--description {
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 700; /* Bold */
+  font-weight: 700;
   font-size: 16px;
   line-height: 120%;
-  color: #2c2c2c; /* Base color for non-link text */
+  color: #2c2c2c;
 }

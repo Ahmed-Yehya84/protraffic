@@ -1,25 +1,15 @@
 .about__box {
   background-color: #ffffff;
   border-radius: 10px;
-  /* We removed default padding here, as we are defining spacing with margins below */
   box-sizing: border-box;
   display: flex;
-  flex-direction: column; /* Stack items vertically within the box */
-  /* padding: 16px; */
+  flex-direction: column;
   padding-bottom: 16px;
   padding-right: 16px;
 }
 
-/* The two 292px wide boxes */
-/* .about__box:nth-child(1),
-.about__box:nth-child(2) {
-  width: 292px;
-  flex-grow: 0;
-  flex-shrink: 0;
-} */
-
 .about__box {
-  flex: 1; /* Makes all 4 boxes equal width within the second row */
+  flex: 1;
 }
 
 .about > .about__box:nth-child(1),
@@ -30,31 +20,26 @@
 
 .about > .about__box:nth-child(1) .about__title,
 .about > .about__box:nth-child(2) .about__title {
-  margin: 0 0 5px 16px; /* Space between logo area and title top */
+  margin: 0 0 5px 16px;
 }
 
 .about > .about__box:nth-child(1) .about__paragraph,
 .about > .about__box:nth-child(2) .about__paragraph {
-  margin: 0 0 0 16px; /* Space between title bottom and paragraph top */
+  margin: 0 0 0 16px;
 }
 
 .about > .about__box:nth-child(1) .about__logo-background,
 .about > .about__box:nth-child(2) .about__logo-background {
-  /* Height of background 32px. We need 41px total gap. 41px distance - 32px height = 9px margin-bottom */
-  /* margin-bottom: 41px; */
   margin-bottom: 36px;
 }
 
 @media (max-width: 768px) {
-  /* Ensure all boxes take up 100% width on mobile, which grid-template-columns: 1fr handles */
-  /* Add margin bottom to separate boxes in the stack (the desktop gap of 10px is gone in vertical flex) */
   .about__box {
     margin-bottom: 10px;
   }
 }
 
 @media (max-width: 524px) {
-  /* Ensure all boxes take up 100% width on mobile, which grid-template-columns: 1fr handles */
   .about__box {
     margin-bottom: 10px;
   }

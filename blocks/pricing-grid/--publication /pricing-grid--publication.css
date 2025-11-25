@@ -11,7 +11,6 @@
 }
 
 @media (max-width: 768px) {
-  /* ... other media queries ... */
   .pricing-grid--publication {
     margin-right: 0;
   }

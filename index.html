@@ -71,8 +71,8 @@
     </header>
 
     <main class="content">
+      <!-- hero section -->
       <section class="hero" aria-label="Главная баннерная секция">
-        <!-- Logo positioning might need adjustment depending on how it relates to the whole page vs this section -->
         <img
           src="images/Mask group.svg"
           alt="Логотип ProTraffic"
@@ -205,12 +205,12 @@
           </div>
         </div>
       </section>
+      <!-- banner section -->
       <section id="banner" class="banner" aria-label="баннерная секция">
         <!-- Items will be injected here by JavaScript -->
       </section>
 
       <template id="banner__item-template">
-        <!-- Added role="article" for better accessibility -->
         <div class="banner__item" role="article">
           <div class="banner__item-content">
             <h3 class="banner__item-title"></h3>
@@ -256,7 +256,7 @@
           </div>
         </div>
 
-        <!-- Container for the 8 boxes (duplicate projects__box 7 more times) -->
+        <!-- Container for the 8 boxes -->
         <div class="projects__boxes-container">
           <div class="projects__box">
             <img
@@ -268,7 +268,7 @@
               Разработку спецпроекта на базе ProTraffic для вашего бизнеса
             </p>
           </div>
-          <!-- ... 7 more projects__box divs ... -->
+
           <div class="projects__box">
             <img
               src="images/specia-project-icon.svg"
@@ -353,8 +353,6 @@
           <div
             class="projects__card-content projects__card-content--individual"
           >
-            <!-- This card has Title, Price, Paragraph 1, Paragraph 2 (bold) -->
-
             <h3 class="projects__card-title">
               Написание индивидуального обзора
             </h3>
@@ -362,7 +360,7 @@
             <!-- New wrapper for price, similar to banner section -->
             <div class="projects__card-price-wrapper">
               <h4 class="projects__card-price">$950</h4>
-              <!-- Assuming you will format this in JS -->
+              <!-- price is formatted using javascrip check index.js -->
             </div>
 
             <p class="projects__card-paragraph">
@@ -385,7 +383,6 @@
           </div>
         </div>
 
-        <!-- Boxes go below the individual projects card -->
         <div
           class="projects__boxes-container projects__boxes-container--individual"
         >
@@ -396,7 +393,7 @@
               alt="Иконка звезды"
               class="projects__box-icon"
             />
-            <!-- Added the modifier class for specific styling -->
+
             <p
               class="projects__box-paragraph projects__box-paragraph--individual"
             >
@@ -412,7 +409,6 @@
               alt="Иконка звезды"
               class="projects__box-icon"
             />
-            <!-- Added the modifier class for specific styling -->
             <p
               class="projects__box-paragraph projects__box-paragraph--individual"
             >
@@ -428,7 +424,6 @@
               alt="Иконка звезды"
               class="projects__box-icon"
             />
-            <!-- Added the modifier class for specific styling -->
             <p
               class="projects__box-paragraph projects__box-paragraph--individual"
             >
@@ -438,14 +433,13 @@
           </div>
 
           <!-- Box 4 -->
-          <!-- Note: The class 'projects__boxes-container--individual' was incorrectly placed on this box, I removed it -->
+
           <div class="projects__box">
             <img
               src="images/specia-project-icon.svg"
               alt="Иконка звезды"
               class="projects__box-icon"
             />
-            <!-- Added the modifier class for specific styling -->
             <p
               class="projects__box-paragraph projects__box-paragraph--individual"
             >
@@ -649,9 +643,7 @@
           </div>
         </div>
 
-        <!-- Part 4: 4 Boxes (Reusing existing components) -->
         <div class="projects__boxes-container projects__boxes-container--blog">
-          <!-- Use 4 copies of projects__box component here -->
           <div class="projects__box">
             <img
               src="images/specia-project-icon.svg"
@@ -703,7 +695,6 @@
         class="top-ratings"
         aria-label="Раздел ТОП в рейтинге партнерских программ"
       >
-        <!-- Part 1: The Card (similar to previous card structure) -->
         <div class="projects__card projects__card--ratings" role="article">
           <div class="projects__card-content projects__card-content--ratings">
             <h2 class="top-ratings__title">
@@ -760,7 +751,6 @@
                 ТОП в рейтинге рекламных сетей
               </h2>
 
-              <!-- Reusing the badge paragraph structure from the previous section -->
               <p class="top-ratings__badge-paragraph">
                 <span class="top-ratings__badge">!</span>
                 Бронируем на срок от 3-х месяцев
@@ -801,7 +791,6 @@
             <div class="services-rating__text-container">
               <h2 class="services-rating__title">ТОП в рейтинге сервисов</h2>
 
-              <!-- Reusing the badge paragraph structure from the previous section -->
               <p class="top-ratings__badge-paragraph">
                 <span class="top-ratings__badge">!</span>
                 Бронируем на срок от 3-х месяцев
@@ -840,8 +829,6 @@
               сервисов
             </h2>
 
-            <!-- Reusing the badge paragraph structure from the previous section -->
-            <!-- Inline style for margin-bottom 10px is an easy fix for specific spacing -->
             <p class="top-ratings__badge-paragraph" style="margin-bottom: 10px">
               <span class="top-ratings__badge">!</span>
               Бронируем на срок от 3-х месяцев
@@ -882,7 +869,6 @@
           <div class="projects__card-content projects__card-content--sponsor">
             <h2 class="sponsor__title">Спонсор раздела</h2>
 
-            <!-- Price and Month Container (using existing classes where possible) -->
             <div class="sponsor__price-container">
               <h3 class="sponsor__price">$600</h3>
               <p class="sponsor__month">месяц</p>
@@ -968,7 +954,6 @@
               Брендирование поисковых запросов
             </h2>
 
-            <!-- Price and Month Container (Reusing sponsor structure) -->
             <div class="sponsor__price-container">
               <h3 class="search-branding__price">$1 500</h3>
               <p class="search-branding__month">месяц</p>
@@ -1061,11 +1046,9 @@
         aria-label="Секция постов в социальных сетях"
       >
         <div class="projects__card projects__card--social" role="article">
-          <!-- Title is inside the content wrapper (standard layout) -->
           <div class="projects__card-content projects__card-content--social">
             <h2 class="social-media-posts__title">Посты в социальных сетях</h2>
 
-            <!-- REPLACE IMG WITH THIS TABLE STRUCTURE -->
             <table class="pricing-table">
               <tbody>
                 <!-- Row 1 -->
@@ -1222,7 +1205,6 @@
           <div class="projects__card-content projects__card-content--vacancy">
             <h2 class="vacancy__title">Добавление вакансии</h2>
 
-            <!-- Price and Month Container (Reusing sponsor structure classes) -->
             <div class="sponsor__price-container">
               <h3 class="vacancy__price">$200</h3>
               <p class="vacancy__frequency">месяц</p>
@@ -1318,7 +1300,6 @@
       <div class="footer__wrapper">
         <!-- Column 1: Logo and Description -->
         <div class="footer__column footer__column--info">
-          <!-- Your SVG logo code goes here -->
           <img
             src="images/logo-footer.png"
             alt="Логотип ProTraffic"
@@ -1331,7 +1312,6 @@
           </p>
 
           <div class="footer__socials">
-            <!-- Social Media Icons (use SVG or img tags) -->
             <a href="#" class="footer__social-link" aria-label="Telegram">
               <img
                 src="images/tg-footer.png"

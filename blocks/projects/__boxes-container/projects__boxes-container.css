@@ -1,7 +1,7 @@
 .projects__boxes-container {
   display: grid;
-  grid-template-columns: 292px 292px 292px 292px; /* 4 columns */
-  gap: 10px; /* 10px gap between all boxes and rows */
+  grid-template-columns: 292px 292px 292px 292px;
+  gap: 10px;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -9,8 +9,7 @@
 
 @media (max-width: 1200px) {
   .projects__boxes-container {
-    /* Switch to a fluid layout using fractions, might look better with 2 columns on tablets */
-    grid-template-columns: 1fr 1fr; /* 2 columns for tablet view */
+    grid-template-columns: 1fr 1fr;
     padding: 0 16px;
   }
 }
@@ -18,7 +17,6 @@
 /* Mobile View (Below 768px - single column stack) */
 @media (max-width: 768px) {
   .projects__boxes-container {
-    /* Change to a single column grid that takes up full width */
     grid-template-columns: 1fr;
   }
 }

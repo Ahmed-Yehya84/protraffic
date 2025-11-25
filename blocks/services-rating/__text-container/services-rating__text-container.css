@@ -1,10 +1,9 @@
 .services-rating__text-container {
-  /* margin: 50px top, 36px right, 40px bottom, 50px left */
   margin: 50px 36px 40px 50px;
 }
 
 @media (max-width: 768px) {
   .services-rating__text-container {
-    margin: 10px; /* Small margins for mobile */
+    margin: 10px;
   }
 }

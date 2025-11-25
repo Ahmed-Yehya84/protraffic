@@ -1,19 +1,14 @@
-/* ad-networks-ratings__main-image.css */
-
 .ad-networks-ratings__main-image {
   display: block;
-  /* FIX: Set the explicit width for desktop view */
   width: 545px;
-  height: auto; /* Maintain aspect ratio */
-  /* Margin: 50px top, 50px right, 50px bottom, 0 left */
+  height: auto;
   margin: 50px 50px 50px 0;
 }
 
-/* Ensure the image scales down on smaller screens, overriding the fixed width */
 @media (max-width: 768px) {
   .ad-networks-ratings__main-image {
     width: 100%;
-    margin: 0 0 10px 0; /* Small margins for mobile */
+    margin: 0 0 10px 0;
     padding: 0 10px;
   }
 }

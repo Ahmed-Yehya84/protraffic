@@ -1,16 +1,10 @@
-/* contacts.css (Revised for bottom padding) */
-
 .contacts {
   width: 100%;
   max-width: 1200px;
-  margin: 40px auto; /* General section spacing */
-
+  margin: 40px auto;
   box-sizing: border-box;
-
-  background-color: #ffffff; /* White background */
-  border-radius: 16px; /* Rounded corners */
-
-  /* FIX: Add padding-bottom to ensure background covers the required 40px space */
+  background-color: #ffffff;
+  border-radius: 16px;
   padding-bottom: 40px;
   padding-top: 1px;
 }

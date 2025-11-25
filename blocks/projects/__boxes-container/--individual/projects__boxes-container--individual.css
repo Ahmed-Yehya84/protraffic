@@ -1,16 +1,8 @@
-/* projects__boxes-container.css (additions) */
-
 .projects__boxes-container--individual {
-  /* New layout: 4 columns, each 288px wide */
   grid-template-columns: 288px 288px 288px 288px;
-  /* The gap of 10px from the base class is maintained */
 }
 
-/* projects__box-icon.css (additions) */
-
-/* Target the icons only within the 'individual' container */
 .projects__boxes-container--individual .projects__box-icon {
-  /* Reset base margin-bottom and use specific values below */
   margin-bottom: 0;
 }
 
@@ -42,17 +34,14 @@
   margin-bottom: 20px;
 }
 
-/* Responsiveness: Ensure this modifier also becomes fluid/stacked on mobile */
 @media (max-width: 1200px) {
   .projects__boxes-container--individual {
-    /* Switch to a fluid layout using fractions for tablets */
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (max-width: 768px) {
   .projects__boxes-container--individual {
-    /* Single column for mobile */
     grid-template-columns: 1fr;
   }
 }

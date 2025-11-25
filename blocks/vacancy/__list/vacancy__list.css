@@ -1,6 +1,5 @@
 .vacancy__list {
-  list-style-type: disc; /* Use standard bullet points */
+  list-style-type: disc;
   margin: 0;
-  /* padding-left 10px from spec (applied to items below) */
   padding: 0;
 }

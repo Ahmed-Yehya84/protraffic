@@ -1,14 +1,13 @@
 .ad-networks-ratings__table-image {
   display: block;
-  width: auto; /* Let container width define maximum */
+  width: auto;
   height: auto;
-  /* margin: 0 top, 40px right, 50px bottom, 50px left */
   margin: 0 40px 50px 50px;
 }
 
 @media (max-width: 768px) {
   .ad-networks-ratings__table-image {
-    margin: 0 10px 10px 10px; /* Small margins for mobile */
-    width: calc(100% - 20px); /* Account for left/right margins */
+    margin: 0 10px 10px 10px;
+    width: calc(100% - 20px);
   }
 }

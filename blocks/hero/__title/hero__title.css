@@ -1,20 +1,16 @@
 .hero__title {
-  /* You will need to make sure this font is imported in your HTML head */
   font-family: "PP Neue Machina", sans-serif;
   color: #ffffff;
-  font-weight: 800; /* 'bolder' mapped to a specific weight if known */
-  font-size: 178px; /* Massive size! */
-
-  /* Positioning the H1 relative to its natural flow */
+  font-weight: 800;
+  font-size: 178px;
   position: absolute;
-  top: 50%; /* Center vertically within the container */
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Centering trick */
-  white-space: nowrap; /* Prevents wrapping of "МЕДИАКИТ" if space is tight */
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
 }
 
 @media (max-width: 992px) {
-  /* Scale down font sizes slightly on mid-size screens */
   .hero__title {
     font-size: 14vw;
   }
@@ -23,13 +19,13 @@
 @media (max-width: 768px) {
   .hero__title {
     position: static;
-    transform: none; /* Remove absolute positioning transforms */
-    margin: 0 auto 1rem auto; /* Center elements in normal flow */
+    transform: none;
+    margin: 0 auto 1rem auto;
     left: auto;
     right: auto;
     top: auto;
     bottom: auto;
     font-size: 10vw;
-    white-space: normal; /* Allow title to wrap if necessary */
+    white-space: normal;
   }
 }

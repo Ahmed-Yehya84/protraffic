@@ -1,10 +1,10 @@
 .pricing-table__cell {
-  padding: 15px; /* Add some padding to cells (adjust as needed) */
+  padding: 15px;
   vertical-align: middle;
 }
 @media (max-width: 768px) {
   .pricing-table__cell {
-    display: block; /* Stack cells vertically if needed for very narrow screens */
+    display: block;
     width: 100%;
   }
 }

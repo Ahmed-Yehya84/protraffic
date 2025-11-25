@@ -1,24 +1,15 @@
-/* .about__box--wide {
-  width: 595px;
-  flex-grow: 0;
-  flex-shrink: 0;
-} */
 .about__box--wide {
   padding: 0 16px 16px 16px;
 }
 
 .about__box--wide .about__title {
-  /* margin: 21px 0 0 0; */
   margin-left: 16px;
 }
 
 .about__box--wide .about__paragraph {
-  /* margin: 5px 0 0 0; */
   margin-left: 16px;
 }
 
 .about__box--wide .about__logo-background {
-  /* Height of background 32px. We need 21px total gap. This means the title's margin-top should be negative? 
-       No, let's use margin-bottom here */
   margin-bottom: 21px;
 }

@@ -1,14 +1,5 @@
-/* @media (max-width: 768px) {
-  .header__nav--active {
-    max-height: 800px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  }
-} */
-
 @media (max-width: 768px) {
   .header__nav--active {
-    /* Example hiding logic (adjust for your layout): */
     display: block;
-    /* Other mobile navigation styles (position: fixed, etc.) */
   }
 }

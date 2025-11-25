@@ -1,54 +1,40 @@
-/* button.css */
-
 .button {
   width: 100%;
-  max-width: 1200px; /* Width aligns with previous sections */
-  display: block; /* Takes up the full available width */
-  margin: 20px auto 40px auto; /* Margin-top 20px, margin-bottom 40px, centers horizontally */
-  cursor: pointer; /* Pointer cursor on hover */
-  box-sizing: border-box; /* Includes padding and border in width calculation */
-  border: none; /* Removes standard button border */
-  text-decoration: none; /* If used as an anchor tag */
-
-  /* Visual styles */
+  max-width: 1200px;
+  display: block;
+  margin: 20px auto 40px auto;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
   background-color: #f5c832;
   border-radius: 16px;
-
-  /* Text styles */
   font-family: "Nunito Sans", sans-serif;
   font-weight: 900;
   font-size: 24px;
   line-height: 100%;
   text-align: center;
   color: #000000;
-
-  /* Padding for text inside the button */
-  /* Instead of huge horizontal padding, we use responsive vertical padding
-     and let width: 100% stretch the button, while text-align: center centers the text */
   padding: 20px 40px;
 }
 
-/* Hover effect */
 .button:hover {
-  background-color: #fcd860; /* Hover color */
-  transition: background-color 0.3s ease; /* Smooth transition */
+  background-color: #fcd860;
+  transition: background-color 0.3s ease;
 }
 
 /* --- Responsiveness --- */
 
-/* Add padding to the edges on smaller screens */
 @media (max-width: 1200px) {
   .button {
-    padding: 20px 20px; /* Reduce horizontal padding as screen shrinks */
+    padding: 20px 20px;
   }
 }
 
 @media (max-width: 768px) {
   .button {
-    /* Add external margins so the button doesn't stick to the very edge of the screen */
     margin-left: 1rem;
     margin-right: 1rem;
-    /* Reduce font size for mobile readability */
     font-size: 18px;
   }
 }

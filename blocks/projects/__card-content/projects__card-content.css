@@ -1,12 +1,11 @@
 .projects__card-content {
   flex-basis: 50%;
   box-sizing: border-box;
-  /* Margins: 81px top, 66px right, 81px bottom, 50px left */
   padding: 81px 66px 81px 50px;
 }
 
 @media (max-width: 768px) {
   .projects__card-content {
-    padding: 20px; /* Tighter padding for small screens */
+    padding: 20px;
   }
 }

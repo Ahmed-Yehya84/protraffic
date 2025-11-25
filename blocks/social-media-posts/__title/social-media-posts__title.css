@@ -1,12 +1,9 @@
-/* social-media-posts__title.css */
-
 .social-media-posts__title {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 900;
   font-size: 38px;
   line-height: 100%;
   color: #3663e0;
-  padding: 10px; /* Padding on all sides */
+  padding: 10px;
   margin: 50px 50px 20px 50px;
-  /* No bottom margin needed, next element has its own */
 }

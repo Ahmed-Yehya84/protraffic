@@ -4,11 +4,9 @@
   display: block;
   margin-top: 20px;
   margin-left: 20px;
-  /* Default margin bottom. Specific values are targeted using parent selectors */
   margin-bottom: 39px;
 }
 
-/* Specific overrides for icon bottom margins */
 /* Box 1 (Row 1): 58px */
 .projects__boxes-container .projects__box:nth-child(1) .projects__box-icon {
   margin-bottom: 58px;
@@ -17,4 +15,3 @@
 .projects__boxes-container .projects__box:nth-child(4) .projects__box-icon {
   margin-bottom: 58px;
 }
-/* Other boxes use the default 39px */

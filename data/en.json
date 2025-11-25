@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Website Branding",
+    "price": "$5500",
+    "month": "month",
+    "rotation": "2 slots in rotation",
+    "text": "The largest and most clickable advertising format, displayed on all pages of the site on desktop and mobile and providing the opportunity to attract maximum target audience.",
+    "image": "images/slide1.jpg",
+    "alt": "laptop image",
+    "id": "item1"
+  },
+  {
+    "title": "Button in navigation menu",
+    "price": "$1 500",
+    "month": "month",
+    "rotation": "no rotation",
+    "text": "This format has a high clickability due to the absence of rotation and good visibility on all devices. It is placed at the top of the screen on desktop and mobile on all pages of the site.",
+    "image": "images/slide2.jpg",
+    "alt": "iphone screen image",
+    "modifier": "banner__item-rotation--none",
+    "id": "item2"
+  },
+  {
+    "title": "Logo x Logo Button",
+    "price": "$1 500",
+    "month": "month",
+    "rotation": "no rotation",
+    "text": "An excellent format with high clickability and no rotation will help increase brand awareness of the advertiser and attract the target audience. Placed at the top of the screen on desktop and mobile on all pages of the site.",
+    "image": "images/slide3.jpg",
+    "alt": "iphone screen image",
+    "modifier": "banner__item-rotation--none",
+    "id": "item3"
+  },
+  {
+    "title": "Sidebar Banner",
+    "price": "$1500",
+    "month": "month",
+    "rotation": "4 slots in rotation",
+    "text": "The largest banner in our line that is impossible to miss. On desktop: placed on the main page and on the right side of any text material. On mobile - on the main page and at the end of each article.",
+    "image": "images/slide4.jpg",
+    "alt": "ipad image",
+    "id": "item4"
+  },
+  {
+    "title": "Pop-up",
+    "price": "$1 500",
+    "month": "month",
+    "rotation": "4 slots in rotation",
+    "text": "A banner that is impossible not to notice. Appears 5 seconds after opening the page. On Desktop it is placed in the bottom left of the screen On Mobile in the bottom of the screen",
+    "image": "images/slide5.jpg",
+    "alt": "macbook image",
+    "id": "item5"
+  }
+]

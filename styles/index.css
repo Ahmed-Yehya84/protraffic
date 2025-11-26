@@ -18,7 +18,7 @@
 @import url(../blocks/hero/__title/hero__title.css);
 @import url(../blocks/hero/__paragraph/hero__paragraph.css);
 @import url(../blocks/hero/__paragraph/--bold/hero__paragraph--bold.css);
-
+@import url(../blocks/hero/__content-wrapper/hero__content-wrapper.css);
 /* about section */
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__box/about__box.css);

@@ -124,6 +124,22 @@ document.addEventListener("DOMContentLoaded", () => {
     currentLanguage = "en";
   }
 
-  // Load the correct data file for the current page's language
   loadLanguageData(currentLanguage);
 });
+// --------------------------------------------------
+// Hero Section Animations
+// --------------------------------------------------
+
+const heroSection = document.querySelector(".hero");
+
+if (window.innerWidth >= 1200) {
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(() => {
+      heroSection.classList.add("hero--animate-title");
+    }, 500);
+
+    setTimeout(() => {
+      heroSection.classList.add("hero--animate-logo");
+    }, 1200);
+  });
+}

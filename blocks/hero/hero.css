@@ -26,3 +26,15 @@
     margin: 1rem auto;
   }
 }
+
+/* Animation for the title appearance (fade in/scale up slightly) */
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}

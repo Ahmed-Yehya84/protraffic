@@ -3,12 +3,23 @@
   width: 256px;
   top: 100px;
   left: 21.2%;
+  transform: rotate(0deg);
   height: auto;
+  opacity: 0;
+  transform-origin: bottom left;
 }
 
-@media (max-width: 992px) {
+.hero--animate-logo .hero__logo {
+  transform: rotate(-8deg);
+}
+
+@media (max-width: 1200px) and (min-width: 769px) {
   .hero__logo {
-    width: 180px;
+    opacity: 1;
+    position: static;
+    transform: none;
+    margin: 0 auto;
+    margin-left: 190px;
   }
 }
 
@@ -22,6 +33,28 @@
     top: auto;
     bottom: auto;
     width: 150px;
-    white-space: normal;
+    opacity: 1;
   }
+
+  .hero--animate-logo .hero__logo {
+    animation: none;
+  }
+}
+
+@keyframes fadeInRotateLogo {
+  from {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  to {
+    opacity: 1;
+
+    transform: rotate(-8deg);
+  }
+}
+
+.hero--animate-logo .hero__logo {
+  animation: fadeInRotateLogo 1s ease-out forwards;
+  opacity: 1;
+  transform: rotate(5deg);
 }

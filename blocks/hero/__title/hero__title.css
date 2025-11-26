@@ -1,31 +1,39 @@
 .hero__title {
-  font-family: "PP Neue Machina", sans-serif;
-  color: #ffffff;
-  font-weight: 800;
-  font-size: 178px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  white-space: nowrap;
+  opacity: 0;
+  height: auto;
+  display: block;
+  box-sizing: border-box;
+  width: 1056px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) and (min-width: 769px) {
   .hero__title {
-    font-size: 14vw;
+    opacity: 1;
+    position: static;
+    transform: none;
+    margin: 0 auto;
+    width: auto;
+    max-width: 100%;
+    display: block;
   }
 }
 
 @media (max-width: 768px) {
   .hero__title {
+    opacity: 1;
     position: static;
     transform: none;
     margin: 0 auto 1rem auto;
-    left: auto;
-    right: auto;
-    top: auto;
-    bottom: auto;
-    font-size: 10vw;
-    white-space: normal;
+    width: 100%;
+    padding: 0 10px;
   }
+}
+
+.hero--animate-title .hero__title {
+  animation: fadeInScale 0.7s ease-out forwards;
+  opacity: 1;
 }

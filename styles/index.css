@@ -248,3 +248,5 @@
 @import url(../blocks/services-rating/__title/services-rating__title.css);
 @import url(../blocks/services-rating/__table-image/services-rating__table-image.css);
 @import url(../blocks/services-rating/__main-image/services-rating__main-image.css);
+
+@import url(../blocks/button/__link/button__link.css);

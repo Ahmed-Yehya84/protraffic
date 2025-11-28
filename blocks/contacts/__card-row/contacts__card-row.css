@@ -33,11 +33,20 @@
     margin: 10px auto;
     padding: 0 16px;
     box-sizing: border-box;
-  }
 
-  .contacts__card-row--first,
-  .contacts__card-row--second {
+    /* FIX: Align all items to the start (left) of the container cell */
+    justify-items: start;
+
     margin-left: 0 !important;
     margin-right: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacts__card-row--first,
+  .contacts__card-row--second {
+    grid-template-columns: 1fr;
+    padding: 0 20px; /* 20px padding for iPhone 14 Pro Max */
+    justify-items: start; /* Ensure left alignment here too */
   }
 }

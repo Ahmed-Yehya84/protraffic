@@ -1,0 +1,16 @@
+.contacts-card__image {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .contact-card__image {
+    /* FIX: Give all images a standard maximum pixel width for consistency */
+    max-width: 300px; /* Adjust 300px as needed to look good on 430px screen */
+    width: 100%; /* Scales down if screen is narrower than 300px */
+    margin: 0 auto; /* Center the image within its card */
+  }
+}

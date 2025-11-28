@@ -14,3 +14,13 @@
     padding-right: 16px;
   }
 }
+@media (max-width: 768px) {
+  .contacts {
+    padding-left: 20px; /* 20px padding for iPhone 14 Pro Max */
+    padding-right: 20px;
+  }
+
+  .contacts__title {
+    margin-left: 20px; /* Match the title margin to the section padding */
+  }
+}

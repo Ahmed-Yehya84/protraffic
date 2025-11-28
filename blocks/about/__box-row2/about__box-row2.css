@@ -6,9 +6,18 @@
   grid-column: span 3;
 }
 
-.about__box-row2 {
-  flex: 1;
+.about__box-row2 .about__box {
+  /* FIX: This shorthand means flex-grow: 1, flex-shrink: 1, flex-basis: 0% */
+  /* It forces items to grow equally and fill the space */
+  flex: 1 1 0;
+  box-sizing: border-box;
+  /* Remove any specific width or flex-basis settings that conflict */
+  width: auto !important;
 }
+
+/* .about__box-row2 {
+  flex: 1;
+} */
 
 .about__box-row2 .about__box:nth-child(1) {
   padding: 0 16px 16px 16px;
@@ -59,8 +68,9 @@
 
 @media (max-width: 768px) {
   .about__box-row2 {
-    flex-direction: column;
+    flex-direction: column; /* Stack vertically on mobile */
     margin-top: 10px;
+    width: 100%; /* Ensure width is 100% */
   }
 }
 

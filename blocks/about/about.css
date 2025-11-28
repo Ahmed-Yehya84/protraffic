@@ -1,5 +1,7 @@
 .about {
-  width: 100%;
+  /* width: 100%; */
+  width: auto;
+  min-width: 0;
   max-width: 1200px;
   margin: 10px auto 40px auto;
   padding: 0;
@@ -16,16 +18,34 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .about {
-    grid-template-columns: 1fr;
-    padding: 0 16px;
+    padding: 0 16px; /* Consistent 16px padding on both sides */
   }
 }
 
+@media (max-width: 768px) {
+  .about {
+    /* FIX: Use Flexbox for mobile layout */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 10px; /* Space between the stacked boxes */
+    padding: 0 20px;
+    /* Remove grid-template-columns: 1fr; as flex handles stacking */
+  }
+
+  /* Remove specific grid rules as we are using flex now */
+  .about > .about__box {
+    /* grid-column: span 1 !important; <- Remove this */
+    width: 100% !important; /* Keep this to ensure width is 100% */
+    margin-bottom: 10px;
+  }
+}
 @media (max-width: 524px) {
   .about {
-    grid-template-columns: 1fr;
-    padding: 0 16px;
+    /* Ensure Flexbox rules apply here too */
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
   }
 }

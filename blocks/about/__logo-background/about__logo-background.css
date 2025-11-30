@@ -8,3 +8,10 @@
   margin-top: 16px;
   margin-left: 16px;
 }
+
+@media (max-width: 768px) {
+  /* Reset specific margins that were defined elsewhere for mobile */
+  .about__logo-background {
+    margin-bottom: 10px;
+  }
+}

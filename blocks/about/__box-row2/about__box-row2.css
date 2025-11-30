@@ -15,11 +15,7 @@
   width: auto !important;
 }
 
-/* .about__box-row2 {
-  flex: 1;
-} */
-
-.about__box-row2 .about__box:nth-child(1) {
+/* .about__box-row2 .about__box:nth-child(1) {
   padding: 0 16px 16px 16px;
 }
 
@@ -64,7 +60,7 @@
 
 .about__box-row2 .about__box:nth-child(1) .about__paragraph:last-child {
   margin-bottom: 16px;
-}
+} */
 
 @media (max-width: 768px) {
   .about__box-row2 {

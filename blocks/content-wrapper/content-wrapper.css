@@ -1,0 +1,16 @@
+/* content-wrapper.css */
+
+.content-wrapper {
+  width: 100%;
+  max-width: 1200px; /* Aligns with your desktop max-width */
+  margin: 0 auto; /* Centers the content on large screens */
+  box-sizing: border-box;
+  padding: 0; /* Default desktop padding */
+}
+
+/* Add consistent padding for tablets and mobile screens (e.g., iPhone 14 Pro Max 430px) */
+@media (max-width: 1200px) {
+  .content-wrapper {
+    padding: 0 20px; /* FIX: Consistent 20px padding on both sides */
+  }
+}

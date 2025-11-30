@@ -4,16 +4,13 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  padding-bottom: 16px;
-  padding-right: 16px;
+  padding: 16px;
+  /* padding-bottom: 16px;
+  padding-right: 16px; */
   min-width: 0;
 }
 
-/* .about__box {
-  flex: 1;
-} */
-
-.about > .about__box:nth-child(1),
+/* .about > .about__box:nth-child(1),
 .about > .about__box:nth-child(2) {
   padding-right: 16px;
   padding-bottom: 16px;
@@ -32,18 +29,6 @@
 .about > .about__box:nth-child(1) .about__logo-background,
 .about > .about__box:nth-child(2) .about__logo-background {
   margin-bottom: 36px;
-}
-
-/* @media (max-width: 768px) {
-  .about__box {
-    margin-bottom: 10px;
-  }
-} */
-
-/* @media (max-width: 524px) {
-  .about__box {
-    
-  }
 } */
 
 @media (max-width: 768px) {
@@ -51,10 +36,11 @@
     margin-bottom: 10px;
     position: static !important;
 
+    width: 100% !important;
     /* FIX: Force the width to reset in mobile view */
-    width: initial !important;
+    /* width: initial !important; */
     max-width: none !important;
-
+    padding: 16px;
     /* Ensure flex basis is 100% if flex properties are still active */
     flex-basis: 100% !important;
   }
@@ -64,7 +50,8 @@
   .about__box {
     /* ... same rules as 768px ... */
     position: static !important;
-    width: initial !important; /* Force reset here too */
+
+    width: initial !important;
     flex-basis: 100% !important;
   }
 }

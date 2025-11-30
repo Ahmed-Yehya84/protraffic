@@ -1,7 +1,7 @@
 .corporate-blog {
-  width: 100%;
+  min-width: 425px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   margin-top: 10px;
@@ -9,6 +9,6 @@
 
 @media (max-width: 1200px) {
   .corporate-blog {
-    padding: 0 16px;
+    padding: 0 10px 0 2px;
   }
 }

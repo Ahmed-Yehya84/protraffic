@@ -21,6 +21,7 @@
   }
 
   .contacts__title {
-    margin-left: 20px; /* Match the title margin to the section padding */
+    padding-top: 30px;
+    margin-left: 20px;
   }
 }

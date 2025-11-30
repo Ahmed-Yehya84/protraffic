@@ -15,8 +15,8 @@
 
 @media (max-width: 768px) {
   .corporate-blog__table-image {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 10px;
   }
 }

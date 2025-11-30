@@ -251,3 +251,6 @@
 @import url(../blocks/services-rating/__main-image/services-rating__main-image.css);
 
 @import url(../blocks/button/__link/button__link.css);
+
+/* content-wrapper */
+@import url(../blocks/content-wrapper/content-wrapper.css);

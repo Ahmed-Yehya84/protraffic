@@ -4,3 +4,11 @@
   padding-right: 16px;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  /* Reset specific margins that were defined elsewhere for mobile */
+
+  .about__paragraph {
+    margin-bottom: 5px;
+  }
+}

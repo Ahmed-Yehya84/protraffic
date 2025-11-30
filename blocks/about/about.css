@@ -1,7 +1,5 @@
 .about {
   width: 100%;
-
-  /* width: auto; */
   min-width: 0;
   max-width: 1200px;
   margin: 10px auto 40px auto;
@@ -22,7 +20,7 @@
 @media (max-width: 1200px) {
   .about {
     display: flex;
-    flex-direction: column; /* Stack all items vertically */
+    flex-direction: column;
     gap: 10px;
     padding: 0 20px;
   }
@@ -30,31 +28,7 @@
     width: 100% !important;
   }
 
-  /* Ensure the second row wrapper also stacks correctly with 100% width */
   .about > .about__box-row2 {
     width: 100% !important;
   }
 }
-
-/* @media (max-width: 768px) {
-  .about {
-    grid-template-columns: 1fr;
-
-    padding: 0 20px;
-  }
-
-  
-  .about > .about__box {
-    
-    width: 100% !important; 
-    margin-bottom: 10px;
-  }
-}
-@media (max-width: 524px) {
-  .about {
-   
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px;
-  }
-} */

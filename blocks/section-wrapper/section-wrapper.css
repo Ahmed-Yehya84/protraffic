@@ -8,6 +8,6 @@
 
 @media (max-width: 1200px) {
   .section-wrapper {
-    padding: 0 16px; /* Consistent 16px padding on both sides */
+    padding: 0 16px;
   }
 }

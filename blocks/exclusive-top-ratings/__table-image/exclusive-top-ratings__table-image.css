@@ -2,17 +2,16 @@
   display: block;
   width: 100%;
   height: auto;
-  margin: 0 auto; /* Centers the image by default */
+  margin: 0 auto;
   max-width: 1100px;
-  box-sizing: border-box; /* Ensures padding is included in the width calculation */
+  box-sizing: border-box;
 }
 
 /* Responsiveness */
 @media (max-width: 768px) {
   .exclusive-top-ratings__table-image {
-    /* FIX: Remove manual 20px margins, rely on 'auto' margin for centering */
     margin: 0 auto;
-    /* Ensure image scales to 100% width within the padded container */
+
     width: 100%;
   }
 }

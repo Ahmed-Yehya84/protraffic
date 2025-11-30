@@ -10,13 +10,13 @@
 }
 @media (max-width: 1200px) {
   .exclusive-top-ratings {
-    padding: 0 16px; /* 16px padding on tablets/laptops */
+    padding: 0 16px;
   }
 }
 
 /* Mobile Responsiveness (for screens under 768px, like iPhone 14 Pro Max) */
 @media (max-width: 768px) {
   .exclusive-top-ratings {
-    padding: 0 20px 50px 20px; /* FIX: 20px padding on mobile */
+    padding: 0 20px 50px 20px;
   }
 }

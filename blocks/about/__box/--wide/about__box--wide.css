@@ -18,12 +18,9 @@
   .about__box--wide {
     margin-bottom: 10px;
     padding-top: 16px;
-    /* Reset width properties that might conflict with stacking */
     width: 100%;
     max-width: none;
-    /* Ensure the box model is consistent */
     box-sizing: border-box;
-    /* Add margin to separate from the next stacked item */
     margin-bottom: 10px;
   }
 }

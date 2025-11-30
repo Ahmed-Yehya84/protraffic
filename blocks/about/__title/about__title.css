@@ -6,11 +6,8 @@
 }
 
 @media (max-width: 768px) {
-  /* Reset specific margins that were defined elsewhere for mobile */
   .about__title {
     margin-top: 10px;
     margin-bottom: 5px;
-    /* margin-top: 10px !important; */
-    /* margin: 0 0 0 0; */
   }
 }

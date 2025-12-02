@@ -18,6 +18,11 @@
     margin-top: 10px;
     width: 100%;
   }
+  .about__box-row2 .about__box .about__title,
+  .about__box-row2 .about__box .about__paragraph,
+  .about__box-row2 .about__box .about__logo-background {
+    margin-left: 0 !important;
+  }
 }
 
 @media (max-width: 524px) {

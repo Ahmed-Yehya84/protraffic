@@ -2,12 +2,21 @@
   font-size: 16px;
   line-height: 20px;
   font-weight: bold;
-  margin: 0;
+  margin-left: 16px;
+}
+
+.about > .about__box:nth-child(3) .about__title {
+  margin-top: 21px;
+}
+
+.about__box-row2 .about__box:nth-child(n + 2) .about__title {
+  margin-top: 81px;
 }
 
 @media (max-width: 768px) {
   .about__title {
     margin-top: 10px;
     margin-bottom: 5px;
+    margin-left: 0;
   }
 }

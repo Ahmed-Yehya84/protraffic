@@ -5,12 +5,13 @@
   border-radius: 4px;
   width: 42px;
   height: 32px;
-  margin-top: 16px;
-  margin-left: 16px;
+
+  margin: 16px 0 31px 16px;
 }
 
 @media (max-width: 768px) {
   .about__logo-background {
     margin-bottom: 10px;
+    margin-left: 0;
   }
 }

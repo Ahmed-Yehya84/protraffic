@@ -8,6 +8,23 @@
   min-width: 0;
 }
 
+.about__title,
+.about__paragraph,
+.about__logo-background {
+  margin: 0; /* Reset all margins to 0 universally */
+}
+
+.about__title {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.about__paragraph {
+  margin-bottom: 5px;
+}
+.about__logo-background {
+  margin-bottom: 10px;
+}
+
 @media (max-width: 768px) {
   .about__box {
     margin-bottom: 10px;
@@ -16,6 +33,11 @@
     max-width: none !important;
     padding: 16px;
     flex-basis: 100% !important;
+  }
+  .about__title,
+  .about__paragraph,
+  .about__logo-background {
+    margin-left: 0 !important; /* Force margin left to zero */
   }
 }
 

@@ -4,12 +4,12 @@
   display: block;
   margin-top: 20px;
   margin-left: 20px;
-  margin-bottom: 39px;
+  /* margin-bottom: 39px; */
 }
 
 /* Box 1 (Row 1): 58px */
 .projects__boxes-container .projects__box:nth-child(1) .projects__box-icon {
-  margin-bottom: 58px;
+  margin-bottom: 40px;
 }
 /* Box 4 (Row 1): 58px */
 .projects__boxes-container .projects__box:nth-child(4) .projects__box-icon {

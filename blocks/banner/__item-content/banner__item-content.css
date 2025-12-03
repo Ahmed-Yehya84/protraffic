@@ -4,6 +4,7 @@
   padding: 90px 91px 90px 50px;
   display: flex;
   flex-direction: column;
+  margin: 10px;
 }
 
 @media (max-width: 768px) {

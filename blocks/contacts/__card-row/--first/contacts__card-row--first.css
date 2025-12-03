@@ -1,9 +1,10 @@
 .contacts__card-row--first {
   grid-template-columns: 330px 346px 360px;
-  margin-bottom: 20px;
-  margin-top: 117px;
-  margin-right: 64px;
-  margin-left: 60px;
+  /* margin-bottom: 20px; */
+  /* margin-top: 117px; */
+  /* padding-left: 60px; */
+  /* margin-right: 64px; */
+  /* margin-left: 60px; */
 }
 
 @media (max-width: 1076px) {

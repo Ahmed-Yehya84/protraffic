@@ -11,7 +11,7 @@
 .about__title,
 .about__paragraph,
 .about__logo-background {
-  margin: 0; /* Reset all margins to 0 universally */
+  margin: 0;
 }
 
 .about__title {

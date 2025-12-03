@@ -4,6 +4,7 @@
   margin-top: 0;
   margin-right: 64px;
   margin-bottom: 0px;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 1076px) {
@@ -23,6 +24,7 @@
   .contacts__card-row--second {
     grid-template-columns: 1fr;
     padding: 0 20px;
+
     margin-bottom: 10px;
     margin-top: 10px;
   }

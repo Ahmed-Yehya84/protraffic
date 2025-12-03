@@ -5,7 +5,7 @@
 .projects__boxes-container--blog
   .projects__box:nth-child(1)
   .projects__box-icon--blog {
-  margin: 20px 0 20px 20px;
+  margin: 20px 0 40px 20px;
 }
 
 /* Box 2: margin 20px 0 39px 20px */
@@ -19,12 +19,12 @@
 .projects__boxes-container--blog
   .projects__box:nth-child(3)
   .projects__box-icon--blog {
-  margin: 20px 0 1px 20px;
+  margin: 20px 0 40px 20px;
 }
 
 /* Box 4: margin 20px 0 20px 20px */
 .projects__boxes-container--blog
   .projects__box:nth-child(4)
   .projects__box-icon--blog {
-  margin: 20px 0 20px 20px;
+  margin: 20px 0 40px 20px;
 }

@@ -1,3 +1,9 @@
 .projects__box-icon--blog {
   margin: 0;
 }
+
+.projects__boxes-container
+  .projects__box:nth-child(2)
+  .projects__box-icon--blog {
+  margin-bottom: 0;
+}

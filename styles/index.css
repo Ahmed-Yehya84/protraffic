@@ -107,8 +107,7 @@
 @import url(../blocks/corporate-blog/__text-and-tables-wrapper/corporate-blog__text-and-tables-wrapper.css);
 
 @import url(../blocks/projects/__box-icon/--blog/projects__box-icon--blog.css);
-@import url(../blocks/projects/__boxes-container/--blog/projects__boxes-container--blog.css);
-
+@import url(../blocks/projects/__box-paragraph/--blog/projects__box-paragraph--blog.css);
 /* top-ratings section */
 @import url(../blocks/top-ratings/top-ratings.css);
 @import url(../blocks/projects/__card/--ratings/projects__card--ratings.css);

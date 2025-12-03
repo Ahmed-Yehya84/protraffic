@@ -1,31 +1,21 @@
 .header__menu-toggle {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   position: relative;
   border: none;
   background: none;
   padding: 0;
+  margin: 10px 0 10px 10px;
   cursor: pointer;
   display: none;
 }
 
-.header__menu-toggle:active,
-.header__menu-toggle:focus {
-  background-color: #f0f0f0;
-  outline: 2px solid #2d79ec;
-  outline-offset: 2px;
+.header__menu-toggle--active .header__icon--burger {
+  display: none; /* Hide burger when active */
 }
 
-.header__menu-toggle--active .header__menu-icon:nth-child(1) {
-  transform: translateY(18px) rotate(45deg);
-}
-
-.header__menu-toggle--active .header__menu-icon:nth-child(2) {
-  opacity: 0;
-}
-
-.header__menu-toggle--active .header__menu-icon:nth-child(3) {
-  transform: translateY(-18px) rotate(-45deg);
+.header__menu-toggle--active .header__icon--close {
+  display: block; /* Show close icon when active */
 }
 
 @media (max-width: 768px) {

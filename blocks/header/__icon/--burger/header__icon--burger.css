@@ -1,0 +1,5 @@
+.header__icon--burger {
+  display: block; /* Visible by default on mobile */
+  width: 100%;
+  height: auto;
+}

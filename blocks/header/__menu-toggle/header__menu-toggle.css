@@ -11,11 +11,11 @@
 }
 
 .header__menu-toggle--active .header__icon--burger {
-  display: none; /* Hide burger when active */
+  display: none;
 }
 
 .header__menu-toggle--active .header__icon--close {
-  display: block; /* Show close icon when active */
+  display: block;
 }
 
 @media (max-width: 768px) {

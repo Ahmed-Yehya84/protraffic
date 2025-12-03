@@ -11,3 +11,9 @@
     padding: 0 16px;
   }
 }
+
+@media (max-width: 430px) {
+  .projects {
+    padding: 0;
+  }
+}

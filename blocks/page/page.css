@@ -27,7 +27,8 @@ html {
 
 @media (max-width: 480px) {
   .page {
-    padding: 0.5rem;
+    width: 429px;
+    padding: 0;
   }
 }
 

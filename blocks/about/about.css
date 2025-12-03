@@ -32,3 +32,9 @@
     width: 100% !important;
   }
 }
+
+@media (max-width: 430px) {
+  .about {
+    margin-bottom: 10px;
+  }
+}

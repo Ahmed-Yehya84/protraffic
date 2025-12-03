@@ -15,8 +15,8 @@
 }
 
 /* Mobile Responsiveness (for screens under 768px, like iPhone 14 Pro Max) */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .exclusive-top-ratings {
     padding: 0 20px 50px 20px;
   }
-}
+} */

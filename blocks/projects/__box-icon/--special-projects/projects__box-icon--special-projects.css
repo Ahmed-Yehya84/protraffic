@@ -1,0 +1,46 @@
+.projects__boxes-container
+  .projects__box:nth-child(1)
+  .projects__box-icon--special-projects {
+  margin-bottom: 58px;
+}
+
+.projects__boxes-container
+  .projects__box:nth-child(2)
+  .projects__box-icon--special-projects {
+  margin-bottom: 39px;
+}
+.projects__boxes-container
+  .projects__box:nth-child(3)
+  .projects__box-icon--special-projects {
+  margin-bottom: 39px;
+}
+
+.projects__boxes-container
+  .projects__box:nth-child(4)
+  .projects__box-icon--special-projects {
+  margin-bottom: 58px;
+}
+
+.projects__boxes-container
+  .projects__box:nth-child(5)
+  .projects__box-icon--special-projects {
+  margin-bottom: 39px;
+}
+
+.projects__boxes-container
+  .projects__box:nth-child(6)
+  .projects__box-icon--special-projects {
+  margin-bottom: 39px;
+}
+
+.projects__boxes-container
+  .projects__box:nth-child(7)
+  .projects__box-icon--special-projects {
+  margin-bottom: 39px;
+}
+
+.projects__boxes-container
+  .projects__box:nth-child(8)
+  .projects__box-icon--special-projects {
+  margin-bottom: 39px;
+}

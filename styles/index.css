@@ -65,6 +65,7 @@
 @import url(../blocks/projects/__card-content/--individual/projects__card-content--individual.css);
 @import url(../blocks/projects/__card-price/projects__card-price.css);
 @import url(../blocks/projects/__card-price-wrapper/projects__card-price-wrapper.css);
+@import url(../blocks/projects/__box-icon/--special-projects/projects__box-icon--special-projects.css);
 /* individual-projects section */
 
 @import url(../blocks/individual-projects/individual-projects.css);

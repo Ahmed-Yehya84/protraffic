@@ -2,7 +2,7 @@
   background-color: #ffffff;
   border-radius: 16px;
   box-sizing: border-box;
-  padding: 16px;
+  /* padding: 16px; */
 }
 
 @media (max-width: 768px) {

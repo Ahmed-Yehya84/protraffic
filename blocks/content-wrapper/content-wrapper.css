@@ -8,6 +8,7 @@
 
 @media (max-width: 1200px) {
   .content-wrapper {
+    width: 100%;
     padding: 0 20px;
   }
 }

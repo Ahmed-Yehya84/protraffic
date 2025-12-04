@@ -90,6 +90,7 @@
 @import url(../blocks/pricing-grid/__paragraph/pricing-grid__paragraph.css);
 @import url(../blocks/pricing-grid/__price/--secondary/pricing-grid__price--secondary.css);
 @import url(../blocks/pricing-grid/__paragraph/--secondary/pricing-grid__paragraph--secondary.css);
+@import url(../blocks/pricing-grid/__paragraph/--indiviual/pricing-gird__paragraph--indiviual.css);
 
 /* publication */
 @import url(../blocks/projects/__card-content/--publication/projects__card-content--publication.css);
@@ -111,6 +112,8 @@
 
 @import url(../blocks/projects/__box-icon/--blog/projects__box-icon--blog.css);
 @import url(../blocks/projects/__box-paragraph/--blog/projects__box-paragraph--blog.css);
+
+@import url(../blocks/corporate-blog/__tables/corporate-blog__tables.css);
 /* top-ratings section */
 @import url(../blocks/top-ratings/top-ratings.css);
 @import url(../blocks/projects/__card/--ratings/projects__card--ratings.css);

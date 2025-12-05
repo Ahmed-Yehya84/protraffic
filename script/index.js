@@ -42,29 +42,49 @@ const formatPrice = (priceString) => {
 
 // Function to create a banner item from data
 const createBannerItem = (itemData) => {
-  const clone = template.content.cloneNode(true);
-  const itemElement = clone.querySelector(".banner__item");
+  // We don't use cloneNode here anymore as we are manually building innerHTML
+  const cardDiv = document.createElement("div");
+  cardDiv.classList.add("banner__item");
 
-  itemElement.querySelector(".banner__item-title").textContent = itemData.title;
-  itemElement.querySelector(".banner__item-price").textContent = formatPrice(
-    itemData.price
-  );
-  itemElement.querySelector(".banner__item-month").textContent = itemData.month;
-  itemElement.querySelector(".banner__item-rotation").textContent =
-    itemData.rotation;
-  itemElement.querySelector(".banner__item-text").textContent = itemData.text;
+  // Use a template literal with conditional logic (ternary operator)
+  cardDiv.innerHTML = `
+    <div class="banner__item-content">
+      <h3 class="banner__item-title">${itemData.title}</h3>
+      <div class="banner__item-subscription">
+        <h4 class="banner__item-price">${formatPrice(itemData.price)}</h4>
+        <div class="banner__item-options">
+          <p class="banner__item-month">${itemData.month}</p>
+          <p class="banner__item-rotation">${itemData.rotation}</p>
+        </div>
+      </div>
+      <p class="banner__item-text">${itemData.text}</p>
+      
+      <!-- FIX: Conditional Check for second paragraph -->
+      ${
+        itemData["second-text"]
+          ? `<p class="banner__item-text banner__item-text--secondary">${itemData["second-text"]}</p>`
+          : ""
+      }
+      
+    </div>
+    <div class="banner__item-image-wrapper">
+      <img class="banner__item-image" src="${itemData.image}" alt="${
+    itemData.alt
+  }" />
+    </div>
+  `;
 
-  const img = itemElement.querySelector(".banner__item-image");
-  img.src = itemData.image;
-  img.alt = itemData.alt;
-
+  // We need to re-select the rotation element to apply the modifier after the innerHTML is set
   if (itemData.modifier) {
-    itemElement
-      .querySelector(".banner__item-rotation")
-      .classList.add(itemData.modifier);
+    // Find the element within the just-created cardDiv
+    const rotationElement = cardDiv.querySelector(".banner__item-rotation");
+    if (rotationElement) {
+      rotationElement.classList.add(itemData.modifier);
+    }
   }
 
-  return clone;
+  // NOTE: We return the cardDiv element instead of the template clone
+  return cardDiv;
 };
 
 // Function to render the banner section with specific data
@@ -72,11 +92,10 @@ const renderBanner = (data) => {
   // Clear existing items first
   bannerSection.innerHTML = "";
 
-  const fragment = document.createDocumentFragment();
+  // We no longer need document fragments as innerHTML is managed within the create function
   data.forEach((item) => {
-    fragment.appendChild(createBannerItem(item));
+    bannerSection.appendChild(createBannerItem(item));
   });
-  bannerSection.appendChild(fragment);
 };
 
 // Function to fetch data and render

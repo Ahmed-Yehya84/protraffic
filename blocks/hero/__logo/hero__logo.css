@@ -36,6 +36,15 @@
     opacity: 1;
   }
 
+  @media (max-width: 430px) {
+    .hero__logo {
+      right: 70px;
+      top: 30px;
+      margin: 0 auto 1rem auto;
+      position: relative;
+    }
+  }
+
   .hero--animate-logo .hero__logo {
     animation: none;
   }

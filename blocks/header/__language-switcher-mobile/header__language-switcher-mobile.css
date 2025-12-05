@@ -1,0 +1,14 @@
+.header__language-switcher-mobile {
+  display: none; /* Hide on desktop */
+  align-items: center;
+}
+
+.header__language-switcher-mobile--hidden {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .header__language-switcher-mobile {
+    display: flex;
+  }
+}

@@ -15,15 +15,17 @@
 /* media queries */
 @media (max-width: 768px) {
   .header {
-    margin: 1rem auto;
-    padding: 0;
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
   }
 }
 @media (max-width: 480px) {
   .header {
-    margin: 0.75rem auto;
+    /* margin: 0.75rem 0; */
+    margin: 10px;
     border-radius: 12px;
+    max-width: 425px;
   }
 }
 @media (min-width: 1200px) {

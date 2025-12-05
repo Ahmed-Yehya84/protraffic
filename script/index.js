@@ -1,6 +1,9 @@
 const menuToggle = document.querySelector(".header__menu-toggle");
 const nav = document.querySelector(".header__nav");
-
+// const header = document.querySelector(".header");
+const languageSwitcherMobile = document.querySelector(
+  ".header__language-switcher-mobile"
+);
 if (menuToggle) {
   // ... (Menu toggle logic) ...
   menuToggle.addEventListener("click", () => {
@@ -14,6 +17,11 @@ if (menuToggle) {
 
     // Toggle the class on the button itself (for the "X" animation)
     menuToggle.classList.toggle("header__menu-toggle--active");
+    if (languageSwitcherMobile) {
+      languageSwitcherMobile.classList.toggle(
+        "header__language-switcher-mobile--hidden"
+      );
+    }
   });
 
   // Close menu when a link is clicked
@@ -23,6 +31,12 @@ if (menuToggle) {
       nav.classList.remove("header__nav--active");
       //  Remove the active class from the button when a link is clicked
       menuToggle.classList.remove("header__menu-toggle--active");
+      // header.classList.toggle("header--menu-open");
+      if (languageSwitcherMobile) {
+        languageSwitcherMobile.classList.remove(
+          "header__language-switcher-mobile--hidden"
+        );
+      }
     });
   });
 }

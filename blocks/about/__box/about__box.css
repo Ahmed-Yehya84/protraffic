@@ -44,7 +44,11 @@
 @media (max-width: 524px) {
   .about__box {
     position: static !important;
-    width: initial !important;
+    max-width: 425px;
+    margin: 0;
+    width: 100%;
+    padding: 5px;
+    /* width: initial !important; */
     flex-basis: 100% !important;
   }
 }

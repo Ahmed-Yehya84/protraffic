@@ -31,3 +31,9 @@
     margin-top: 10px;
   }
 }
+
+@media (max-width: 430px) {
+  .about__box-row2 {
+    margin-top: 0;
+  }
+}

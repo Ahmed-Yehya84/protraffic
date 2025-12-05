@@ -16,5 +16,7 @@
 @media (max-width: 430px) {
   .banner {
     padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }

@@ -14,3 +14,9 @@
     padding: 0 16px;
   }
 }
+
+@media (max-width: 430px) {
+  .native-integration {
+    margin: 0px 10px 10px 10px;
+  }
+}

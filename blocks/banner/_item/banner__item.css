@@ -10,5 +10,6 @@
 @media (max-width: 768px) {
   .banner__item {
     flex-direction: column;
+    margin-bottom: 10px;
   }
 }

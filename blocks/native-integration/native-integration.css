@@ -17,6 +17,8 @@
 
 @media (max-width: 430px) {
   .native-integration {
+    max-width: 410px;
+    padding: 0;
     margin: 0px 10px 10px 10px;
   }
 }

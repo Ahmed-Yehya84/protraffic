@@ -21,3 +21,11 @@
     padding: 0;
   }
 }
+
+@media (max-width: 430px) {
+  .projects__boxes-container {
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    max-width: 410px;
+  }
+}

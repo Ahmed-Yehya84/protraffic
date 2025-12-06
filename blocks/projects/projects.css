@@ -16,5 +16,6 @@
   .projects {
     padding: 0;
     margin: 0px 10px 10px 10px;
+    max-width: 410px;
   }
 }

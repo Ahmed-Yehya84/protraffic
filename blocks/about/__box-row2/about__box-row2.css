@@ -18,12 +18,13 @@
     margin-top: 10px;
     width: 100%;
   }
-  .about__box-row2 .about__box .about__title,
+}
+/* .about__box-row2 .about__box .about__title,
   .about__box-row2 .about__box .about__paragraph,
   .about__box-row2 .about__box .about__logo-background {
-    margin-left: 0 !important;
+    margin-left: 0;
   }
-}
+} */
 
 @media (max-width: 524px) {
   .about__box-row2 {
@@ -34,6 +35,6 @@
 
 @media (max-width: 430px) {
   .about__box-row2 {
-    margin-top: 0;
+    min-width: 410px;
   }
 }

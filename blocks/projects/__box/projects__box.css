@@ -8,8 +8,9 @@
 @media (max-width: 768px) {
   .projects__box {
     margin-bottom: 0;
-    min-width: 400px;
-    margin-left: 10px;
-    margin-right: 10px;
+    /* min-width: 410px; */
+    margin: 0 auto;
+    /* margin-left: 10px;
+    margin-right: 10px; */
   }
 }

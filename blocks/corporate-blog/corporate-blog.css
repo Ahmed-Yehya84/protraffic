@@ -5,3 +5,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@media (max-width: 430px) {
+  .corporate-blog {
+    max-width: 410px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

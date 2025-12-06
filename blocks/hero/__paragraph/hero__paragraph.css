@@ -31,3 +31,10 @@
     white-space: normal;
   }
 }
+
+@media (max-width: 430px) {
+  .hero__paragraph {
+    font-size: 18px;
+    text-align: left;
+  }
+}

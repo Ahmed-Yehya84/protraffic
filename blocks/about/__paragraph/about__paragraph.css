@@ -11,3 +11,10 @@
     margin-left: 0;
   }
 }
+
+@media (max-width: 430px) {
+  .about__paragraph {
+    margin-left: 16px;
+    margin-bottom: 16px;
+  }
+}

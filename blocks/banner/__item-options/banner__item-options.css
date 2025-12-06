@@ -3,3 +3,9 @@
   flex-direction: column;
   margin-left: 20px;
 }
+
+@media (max-width: 430px) {
+  .banner__item-options {
+    margin-left: 0;
+  }
+}

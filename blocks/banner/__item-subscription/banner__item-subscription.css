@@ -3,3 +3,9 @@
   align-items: center;
   margin-bottom: 10px;
 }
+
+@media (max-width: 430px) {
+  .banner__item-subscription {
+    margin-bottom: 14px;
+  }
+}

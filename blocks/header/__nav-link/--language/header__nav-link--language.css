@@ -7,7 +7,7 @@
 @media (max-width: 480px) {
   .header__nav-link--language {
     font-weight: 800;
-    font-size: 14px;
+    font-size: 20px;
     /* font-size: 0.95rem; */
   }
 }

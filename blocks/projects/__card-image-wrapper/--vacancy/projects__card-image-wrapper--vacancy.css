@@ -8,3 +8,9 @@
     margin: 20px;
   }
 }
+
+@media (max-width: 430px) {
+  .projects__card-image-wrapper--vacancy {
+    margin: 0;
+  }
+}

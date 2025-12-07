@@ -11,3 +11,11 @@
     width: calc(100% - 20px);
   }
 }
+
+@media (max-width: 430px) {
+  .services-rating__table-image {
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 410px;
+  }
+}

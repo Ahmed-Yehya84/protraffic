@@ -8,3 +8,9 @@
   color: rgba(44, 44, 44, 0.8);
   margin-bottom: 20px;
 }
+
+@media (max-width: 430px) {
+  .projects__card-paragraph {
+    font-size: 14px;
+  }
+}

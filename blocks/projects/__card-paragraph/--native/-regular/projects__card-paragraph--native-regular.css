@@ -1,3 +1,9 @@
 .projects__card-paragraph--native-regular {
   font-weight: 500;
 }
+
+@media (max-width: 430px) {
+  .projects__card-paragraph--native-regular {
+    font-size: 14px;
+  }
+}

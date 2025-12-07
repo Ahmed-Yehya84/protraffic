@@ -7,3 +7,9 @@
   padding: 0 13px;
   margin-bottom: 10px;
 }
+
+@media (max-width: 430px) {
+  .pricing-grid__paragraph--publication {
+    font-size: 14px;
+  }
+}

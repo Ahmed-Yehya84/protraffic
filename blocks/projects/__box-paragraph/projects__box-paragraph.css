@@ -9,3 +9,9 @@
   margin-bottom: 20px;
   margin-left: 20px;
 }
+
+@media (max-width: 430px) {
+  .projects__box-paragraph {
+    font-size: 14px;
+  }
+}

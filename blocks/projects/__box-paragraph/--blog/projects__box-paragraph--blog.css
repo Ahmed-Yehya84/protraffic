@@ -30,3 +30,9 @@
   .projects__box-paragraph--blog {
   margin: 63px 20px 20px 20px;
 }
+
+@media (max-width: 430px) {
+  .projects__box-paragraph--blog {
+    font-size: 14px;
+  }
+}

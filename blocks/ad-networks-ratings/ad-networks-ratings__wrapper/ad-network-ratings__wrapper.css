@@ -8,3 +8,9 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 430px) {
+  .ad-networks-ratings__wrapper {
+    padding-top: 15px;
+  }
+}

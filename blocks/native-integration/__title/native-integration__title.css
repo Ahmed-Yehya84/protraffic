@@ -7,3 +7,9 @@
   padding: 10px;
   margin-bottom: 10px;
 }
+
+@media (max-width: 430px) {
+  .native-integration__title {
+    font-size: 18px;
+  }
+}

@@ -13,3 +13,9 @@
     margin-right: auto;
   }
 }
+
+@media (max-width: 430px) {
+  .top-ratings__table-image {
+    margin-bottom: 0;
+  }
+}

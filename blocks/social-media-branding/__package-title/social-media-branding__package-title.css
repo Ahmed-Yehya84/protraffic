@@ -9,6 +9,7 @@
 
 @media (max-width: 430px) {
   .social-media-branding__package-title {
-    font-size: 18px;
+    font-size: 14px;
+    color: #727272;
   }
 }

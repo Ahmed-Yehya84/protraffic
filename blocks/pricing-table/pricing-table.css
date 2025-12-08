@@ -17,6 +17,7 @@
   .pricing-table {
     margin: 0;
     margin-bottom: 20px;
-    min-width: 430px;
+    max-width: 430px;
+    width: 100%;
   }
 }

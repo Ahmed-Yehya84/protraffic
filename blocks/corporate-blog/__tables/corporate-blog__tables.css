@@ -22,5 +22,7 @@
 @media (max-width: 430px) {
   .corporate-blog__tables {
     padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }

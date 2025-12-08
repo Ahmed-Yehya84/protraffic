@@ -21,3 +21,9 @@
     margin-bottom: 20px;
   }
 }
+
+@media (max-width: 430px) {
+  .corporate-blog__caption {
+    padding-top: 15px;
+  }
+}

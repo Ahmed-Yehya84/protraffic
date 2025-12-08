@@ -26,4 +26,7 @@
     margin-left: 16px;
     font-size: 14px;
   }
+  .about__box-row2 .about__box:nth-child(n + 2) .about__title {
+    margin-top: 25px;
+  }
 }

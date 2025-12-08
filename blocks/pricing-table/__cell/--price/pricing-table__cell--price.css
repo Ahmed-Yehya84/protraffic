@@ -6,3 +6,10 @@
   color: #2c2c2c;
   white-space: nowrap;
 }
+
+@media (max-width: 430px) {
+  .pricing-table__cell--price {
+    font-size: 28px;
+    padding-bottom: 0;
+  }
+}

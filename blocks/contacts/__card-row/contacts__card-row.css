@@ -12,10 +12,6 @@
 }
 .contacts__card-row--first {
   grid-template-columns: 330px 346px 360px;
-  margin-bottom: 20px;
-  margin-top: 117px;
-  margin-right: 64px;
-  margin-left: 60px;
 }
 .contacts__card-row--second {
   grid-template-columns: 360px 403px;
@@ -30,7 +26,7 @@
   .contacts__card-row--second {
     grid-template-columns: 1fr;
     gap: 10px;
-    margin: 10px auto;
+    margin: 0 auto;
     padding: 0 16px;
     box-sizing: border-box;
     justify-items: start;

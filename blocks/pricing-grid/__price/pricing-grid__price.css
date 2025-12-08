@@ -6,3 +6,9 @@
   color: #2c2c2c;
   padding: 10px;
 }
+
+@media (max-width: 430px) {
+  .pricing-grid__price {
+    font-size: 28px;
+  }
+}

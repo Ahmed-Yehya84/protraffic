@@ -5,3 +5,9 @@
   line-height: 100%;
   color: #2c2c2c;
 }
+
+@media (max-width: 430px) {
+  .native-integration__price {
+    font-size: 28px;
+  }
+}

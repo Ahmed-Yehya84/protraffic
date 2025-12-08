@@ -8,3 +8,10 @@
     margin-left: 20px;
   }
 }
+
+@media (max-width: 430px) {
+  .contacts__title {
+    padding-left: 20px;
+    margin-left: 10px;
+  }
+}

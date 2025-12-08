@@ -12,5 +12,7 @@
 @media (max-width: 430px) {
   .projects__card-content--social {
     padding-top: 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }

@@ -35,6 +35,7 @@
 @import url(../blocks/about/__paragraph/about__paragraph.css);
 @import url(../blocks/about/__logo-background/--with-text/about__logo-background--with-text.css);
 @import url(../blocks/about/__logo-text/about__logo-text.css);
+@import url(../blocks/about/__logo-link/about__logo-link.css);
 
 /* banner section */
 
@@ -227,6 +228,9 @@
 @import url(../blocks/contacts/__card-row/contacts__card-row.css);
 @import url(../blocks/contacts/__card-row/--first/contacts__card-row--first.css);
 @import url(../blocks/contacts/__card-row/--second/contacts__card-row--second.css);
+
+/* youtube section */
+@import url(../blocks/youtube/youtube.css);
 
 /* footer */
 @import url(../blocks/footer/footer.css);

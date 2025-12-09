@@ -5,13 +5,18 @@
   align-items: center;
   list-style: none;
   width: 100%;
-  padding: 1.25rem 1.35rem;
   margin: 0;
-  gap: 0.5rem;
-  flex-wrap: wrap;
+  padding: 1.25rem 17.67px;
+  flex-wrap: nowrap;
 }
 
 /* media queries */
+
+.header__nav-links .header__nav-item:first-child .header__nav-link,
+.header__nav-links .header__nav-item:last-child .header__nav-link,
+.header__nav-links .header__nav-link {
+  margin: 0;
+}
 
 @media (max-width: 768px) {
   .header__nav-links {
@@ -22,6 +27,7 @@
     justify-content: flex-start;
   }
 }
+
 @media (max-width: 480px) {
   .header__nav-links {
     padding: 0.75rem;

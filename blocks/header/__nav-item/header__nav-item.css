@@ -1,9 +1,7 @@
 .header__nav-item {
   flex: 0 1 auto;
-
   white-space: nowrap;
 }
-
 /* media queries */
 @media (max-width: 768px) {
   .header__nav-item {

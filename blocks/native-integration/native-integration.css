@@ -22,3 +22,9 @@
     margin: 0px 10px 10px 10px;
   }
 }
+
+@media (max-width: 320px) {
+  .native-integration {
+    max-width: 300px;
+  }
+}

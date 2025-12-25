@@ -19,3 +19,9 @@
     min-width: 410px;
   }
 }
+
+@media (max-width: 320px) {
+  .ad-networks-ratings__table-image {
+    min-width: 300px;
+  }
+}

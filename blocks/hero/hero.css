@@ -37,6 +37,15 @@
   }
 }
 
+@media (max-width: 320px) {
+  .hero {
+    width: 300px;
+    margin: 10px 10px;
+    position: relative;
+    /* min-height: 420px; */
+  }
+}
+
 /* Animation for the title appearance (fade in/scale up slightly) */
 @keyframes fadeInScale {
   from {

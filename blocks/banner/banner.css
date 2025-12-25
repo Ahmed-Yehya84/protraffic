@@ -21,3 +21,9 @@
     max-width: 410px;
   }
 }
+
+@media (max-width: 320px) {
+  .banner {
+    max-width: 300px;
+  }
+}

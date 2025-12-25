@@ -23,3 +23,9 @@
     padding: 0;
   }
 }
+
+@media (max-width: 320px) {
+  .social-media-posts {
+    max-width: 300px;
+  }
+}

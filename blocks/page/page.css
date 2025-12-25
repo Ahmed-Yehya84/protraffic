@@ -37,3 +37,9 @@ html {
     padding: 1.25rem 2.5rem 0 2.5rem;
   }
 }
+
+@media (max-width: 320px) {
+  .page {
+    width: 300px;
+  }
+}

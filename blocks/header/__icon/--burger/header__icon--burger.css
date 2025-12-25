@@ -3,3 +3,10 @@
   width: 100%;
   height: auto;
 }
+
+@media (max-width: 320px) {
+  .header__icon--burger,
+  .header__icon--close {
+    width: 24px !important;
+  }
+}

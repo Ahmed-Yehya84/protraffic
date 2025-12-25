@@ -23,3 +23,9 @@
     padding: 0;
   }
 }
+
+@media (max-width: 320px) {
+  .social-media-branding {
+    max-width: 300px;
+  }
+}

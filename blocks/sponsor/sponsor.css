@@ -23,3 +23,8 @@
     padding: 0;
   }
 }
+@media (max-width: 320px) {
+  .sponsor {
+    max-width: 300px;
+  }
+}

@@ -34,3 +34,9 @@
     padding: 0;
   }
 }
+
+@media (max-width: 320px) {
+  .contacts {
+    max-width: 300px;
+  }
+}

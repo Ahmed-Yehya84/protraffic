@@ -17,3 +17,10 @@
     top: 100%;
   }
 }
+
+@media (max-width: 320px) {
+  .header__nav {
+    max-width: 100%;
+    overflow: hidden;
+  }
+}

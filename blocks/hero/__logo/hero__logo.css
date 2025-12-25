@@ -45,6 +45,9 @@
     }
   }
 
+  @media (max-width: 320px) {
+  }
+
   .hero--animate-logo .hero__logo {
     animation: none;
   }

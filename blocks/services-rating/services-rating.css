@@ -30,3 +30,9 @@
     padding: 0;
   }
 }
+
+@media (max-width: 320px) {
+  .services-rating {
+    max-width: 300px;
+  }
+}

@@ -12,3 +12,10 @@
     min-width: 430px;
   }
 }
+
+@media (max-width: 320px) {
+  .footer {
+    width: 0;
+    min-width: 300px;
+  }
+}

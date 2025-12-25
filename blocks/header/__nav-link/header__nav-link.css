@@ -9,7 +9,6 @@
   display: inline-block;
   transition: all 0.3s ease;
   border-radius: 4px;
-  gap: 5px;
 }
 
 .header__nav-link:hover {

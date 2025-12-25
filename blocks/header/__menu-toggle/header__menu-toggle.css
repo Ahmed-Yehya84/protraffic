@@ -20,7 +20,18 @@
 
 @media (max-width: 768px) {
   .header__menu-toggle {
-    display: block;
+    z-index: 1002;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header__menu-toggle--active .header__icon--burger {
+    display: none !important;
+  }
+  .header__menu-toggle--active .header__icon--close {
+    display: block !important;
+    width: 28px;
+    height: 28px;
   }
 }
 
@@ -28,4 +39,21 @@
   .header__menu-toggle {
     padding: 0.75rem;
   }
+}
+
+@media (max-width: 320px) {
+  .header__menu-toggle--active .header__icon--close {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.header__menu-toggle--active ~ .header__language-switcher-mobile {
+  display: none !important;
+}
+
+.header__menu-toggle--active .header__icon--close {
+  display: block !important;
+  width: 30px;
+  height: 30px;
 }

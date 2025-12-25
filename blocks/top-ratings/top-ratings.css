@@ -19,3 +19,9 @@
     padding-top: 0;
   }
 }
+
+@media (max-width: 320px) {
+  .top-ratings {
+    max-width: 300px;
+  }
+}

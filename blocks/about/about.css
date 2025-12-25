@@ -40,3 +40,9 @@
     max-width: 410px;
   }
 }
+
+@media (max-width: 320px) {
+  .about {
+    max-width: 300px;
+  }
+}

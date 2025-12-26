@@ -37,7 +37,7 @@
   .about__title,
   .about__paragraph,
   .about__logo-background {
-    margin-left: 0; /* Force margin left to zero */
+    margin-left: 0;
   }
 }
 
@@ -48,7 +48,7 @@
     margin: 0;
     width: 100%;
     padding: 5px;
-    /* width: initial !important; */
+
     flex-basis: 100% !important;
   }
 }

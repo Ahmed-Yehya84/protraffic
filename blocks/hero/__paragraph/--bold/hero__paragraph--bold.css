@@ -4,7 +4,7 @@
 
 @media (max-width: 320px) {
   .hero__paragraph--bold {
-    display: block; /* Puts bold part on its own line if needed */
+    display: block;
     margin-bottom: 5px;
   }
 }
